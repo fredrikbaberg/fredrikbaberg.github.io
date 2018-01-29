@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://fredrikbaberg.github.io/2016/09/17/push/</loc>
+    <lastmod>2016-09-17T17:06:06+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fredrikbaberg.github.io/2016/09/16/make-it-happen/</loc>
+    <lastmod>2016-09-16T23:11:43+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fredrikbaberg.github.io/2016/09/16/its-alive/</loc>
+    <lastmod>2016-09-16T23:01:01+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fredrikbaberg.github.io/about/</loc>
+  </url>
+  
+  <url>
+    <loc>https://fredrikbaberg.github.io/license/</loc>
+  </url>
+  
+  <url>
+    <loc>https://fredrikbaberg.github.io/</loc>
+    <lastmod>2016-09-17T17:06:06+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fredrikbaberg.github.io/tags/first-post/</loc>
+    <lastmod>2016-09-16T23:01:01+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fredrikbaberg.github.io/tags/minor-update/</loc>
+    <lastmod>2016-09-17T17:06:06+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fredrikbaberg.github.io/post/</loc>
+    <lastmod>2016-09-17T17:06:06+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fredrikbaberg.github.io/tags/</loc>
+    <lastmod>2016-09-16T23:01:01+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fredrikbaberg.github.io/tags/technology/</loc>
+    <lastmod>2016-09-16T23:11:43+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fredrikbaberg.github.io/topics/topic-1/</loc>
+    <lastmod>2016-09-17T17:06:06+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fredrikbaberg.github.io/topics/</loc>
+    <lastmod>2016-09-17T17:06:06+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

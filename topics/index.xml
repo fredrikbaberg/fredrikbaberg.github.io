@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Topics on Baberg.nu</title>
+    <link>https://fredrikbaberg.github.io/topics/</link>
+    <description>Recent content in Topics on Baberg.nu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-EN</language>
+    <copyright>(c) 2016 Fredrik Baberg.</copyright>
+    <lastBuildDate>Sat, 17 Sep 2016 17:06:06 +0200</lastBuildDate>
+    
+	<atom:link href="https://fredrikbaberg.github.io/topics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Topic 1</title>
+      <link>https://fredrikbaberg.github.io/topics/topic-1/</link>
+      <pubDate>Sat, 17 Sep 2016 17:06:06 +0200</pubDate>
+      
+      <guid>https://fredrikbaberg.github.io/topics/topic-1/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
