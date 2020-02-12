@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags | Scouter</title>
+    <link>https://fredrikbaberg.github.io/scouter/tags/</link>
+      <atom:link href="https://fredrikbaberg.github.io/scouter/tags/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tags</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>sv-se</language><copyright>©Fredrik Båberg 2020</copyright><lastBuildDate>Sat, 25 Jan 2020 09:30:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Tags</title>
+      <link>https://fredrikbaberg.github.io/scouter/tags/</link>
+    </image>
+    
+    <item>
+      <title>Hemsida</title>
+      <link>https://fredrikbaberg.github.io/scouter/tags/hemsida/</link>
+      <pubDate>Sat, 25 Jan 2020 09:30:00 +0000</pubDate>
+      <guid>https://fredrikbaberg.github.io/scouter/tags/hemsida/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IT</title>
+      <link>https://fredrikbaberg.github.io/scouter/tags/it/</link>
+      <pubDate>Sat, 25 Jan 2020 09:30:00 +0000</pubDate>
+      <guid>https://fredrikbaberg.github.io/scouter/tags/it/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kårmejl</title>
+      <link>https://fredrikbaberg.github.io/scouter/tags/karmejl/</link>
+      <pubDate>Sat, 25 Jan 2020 09:30:00 +0000</pubDate>
+      <guid>https://fredrikbaberg.github.io/scouter/tags/karmejl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scoutnet</title>
+      <link>https://fredrikbaberg.github.io/scouter/tags/scoutnet/</link>
+      <pubDate>Sat, 25 Jan 2020 09:30:00 +0000</pubDate>
+      <guid>https://fredrikbaberg.github.io/scouter/tags/scoutnet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GDPR</title>
+      <link>https://fredrikbaberg.github.io/scouter/tags/gdpr/</link>
+      <pubDate>Sun, 17 Mar 2019 15:30:00 +0000</pubDate>
+      <guid>https://fredrikbaberg.github.io/scouter/tags/gdpr/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
