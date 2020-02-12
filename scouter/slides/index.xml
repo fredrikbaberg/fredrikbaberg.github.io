@@ -1,0 +1,881 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Slides | Scouter</title>
+    <link>https://fredrikbaberg.github.io/scouter/slides/</link>
+      <atom:link href="https://fredrikbaberg.github.io/scouter/slides/index.xml" rel="self" type="application/rss+xml" />
+    <description>Slides</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>sv-se</language><copyright>©Fredrik Båberg 2020</copyright><lastBuildDate>Sat, 25 Jan 2020 09:15:00 +0000</lastBuildDate>
+    <item>
+      <title>IT</title>
+      <link>https://fredrikbaberg.github.io/scouter/slides/ledarhelg2020it/</link>
+      <pubDate>Sat, 25 Jan 2020 09:15:00 +0000</pubDate>
+      <guid>https://fredrikbaberg.github.io/scouter/slides/ledarhelg2020it/</guid>
+      <description>&lt;aside class=&#34;notes&#34;&gt;
+  Presentera mig.
+&lt;/aside&gt;
+&lt;h1 id=&#34;it&#34;&gt;IT&lt;/h1&gt;
+&lt;p&gt;Lite blandat om teknik&lt;/p&gt;
+&lt;hr&gt;
+&lt;aside class=&#34;notes&#34;&gt;
+  Översikt av presentationen.
+Blandade punkter - många men några är korta.
+&lt;/aside&gt;
+&lt;h2 id=&#34;innehåll&#34;&gt;Innehåll&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Nätverket i Kåken&lt;/li&gt;
+&lt;li&gt;Projektorer&lt;/li&gt;
+&lt;li&gt;Skrivare&lt;/li&gt;
+&lt;li&gt;Scoutnet&lt;/li&gt;
+&lt;li&gt;Hemsida&lt;/li&gt;
+&lt;li&gt;Kårmejl- och kårdrive&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;aside class=&#34;notes&#34;&gt;
+  &lt;p&gt;Berätta kort om nätverket.&lt;/p&gt;
+&lt;p&gt;Har varit igång ungefär ett år.&lt;/p&gt;
+&lt;p&gt;Det finns, kan vi göra något kul med det?&lt;/p&gt;
+&lt;p&gt;Behäver något ändras?&lt;/p&gt;
+&lt;/aside&gt;
+&lt;h2 id=&#34;nätverk-och-internet&#34;&gt;Nätverk och internet&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Trådat nätverk i större delen av Kåken&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Trådlöst nätverk i (nästan) hela Kåken&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Säg till om något krånglar eller saknas&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;mailto:it@hojdarscout.se&#34;&gt;it@hojdarscout.se&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;aside class=&#34;notes&#34;&gt;
+  Kort om projektorerna vi har.
+&lt;/aside&gt;
+&lt;h2 id=&#34;projektorer&#34;&gt;Projektorer&lt;/h2&gt;
+&lt;p&gt;Två stycken&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Lampa&lt;/li&gt;
+&lt;li&gt;LED&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;section data-shortcode-section&gt;
+&lt;h2 id=&#34;kopiator-och-skrivare&#34;&gt;Kopiator och skrivare&lt;/h2&gt;
+&lt;aside class=&#34;notes&#34;&gt;
+  &lt;p&gt;Jag visste inte, så tänker att fler inte har koll.&lt;/p&gt;
+&lt;p&gt;Vilka skrivare har vi, vem sköter underhåll, vad ingår.&lt;/p&gt;
+&lt;p&gt;Enklare om alla vet vad som gäller.&lt;/p&gt;
+&lt;/aside&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Vilka har vi?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Vem sköter underhåll?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Vad ingår?&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;kopiator&#34;&gt;Kopiator&lt;/h3&gt;
+&lt;aside class=&#34;notes&#34;&gt;
+  Nytt med USB-minnen.
+&lt;/aside&gt;
+&lt;img style=&#34;float: left; width: 25%; border-radius: 20%; border-style: none&#34; src=&#34;MPC-305SP-305SPF-plain2.jpg&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;Färg&lt;/li&gt;
+&lt;li&gt;Skriv ut från
+&lt;ul&gt;
+&lt;li&gt;Dator (med USB-kabel)&lt;/li&gt;
+&lt;li&gt;USB-minne (finns på kontoret)&lt;br/&gt;&lt;br/&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Avtal på kopiatorn
+&lt;ul&gt;
+&lt;li&gt;Kvot per månad
+&lt;ul&gt;
+&lt;li&gt;Fler sidor S/V än färg&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Skrivarpapper ingår ej&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;portabel-skrivare&#34;&gt;Portabel skrivare&lt;/h3&gt;
+&lt;img style=&#34;float: left; width: 30%; border-radius: 10%; border-style: none&#34; src=&#34;81DYdw52voL._AC_SL1500_.jpg&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;Svart/vit&lt;/li&gt;
+&lt;li&gt;Skriv ut från
+&lt;ul&gt;
+&lt;li&gt;Dator (med kabel)&lt;/li&gt;
+&lt;li&gt;Trådlöst
+&lt;ul&gt;
+&lt;li&gt;Inloggning står på&lt;br/&gt;&lt;br/&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Underhålls helt av kåren&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;varför&#34;&gt;Varför?&lt;/h3&gt;
+&lt;p&gt;Vill att fler vet hur det fungerar&lt;/p&gt;
+&lt;/section&gt;
+&lt;hr&gt;
+&lt;section data-shortcode-section&gt;
+&lt;aside class=&#34;notes&#34;&gt;
+  Varför ska du kunna inloggningsuppgifter, hur loggar du in, hur håller vi informationen uppdaterad?
+&lt;/aside&gt;
+&lt;h2 id=&#34;scoutnet&#34;&gt;Scoutnet&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;scoutnet.png&#34; alt=&#34;Scoutnet&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Vad är det&lt;/li&gt;
+&lt;li&gt;Inloggning&lt;/li&gt;
+&lt;li&gt;Ledarens uppgifter&lt;/li&gt;
+&lt;li&gt;Uppdateringar&lt;/li&gt;
+&lt;li&gt;ScoutID&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;vad&#34;&gt;Vad?&lt;/h3&gt;
+&lt;aside class=&#34;notes&#34;&gt;
+  &lt;p&gt;Nyanmälan är nytt.&lt;/p&gt;
+&lt;p&gt;Kommer jobba bort specialfall från e-postalias&amp;hellip;&lt;/p&gt;
+&lt;/aside&gt;
+&lt;p&gt;Medlemsregister för riksorganisationen Scouterna.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Används för bland annat:
+&lt;ul&gt;
+&lt;li&gt;Utskick&lt;/li&gt;
+&lt;li&gt;E-postlistor + alias&lt;/li&gt;
+&lt;li&gt;Anmälan till arrangemang/aktiviteter&lt;/li&gt;
+&lt;li&gt;Statsbidragsansökan&lt;/li&gt;
+&lt;li&gt;Rapporter&lt;/li&gt;
+&lt;li&gt;Nyanmälan&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Används EJ för:
+&lt;ul&gt;
+&lt;li&gt;Hälsouppgifter&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;inloggning&#34;&gt;Inloggning&lt;/h3&gt;
+&lt;aside class=&#34;notes&#34;&gt;
+  Inloggning med personnummer är nytt.
+Primär e-postadress är viktig!
+&lt;/aside&gt;
+&lt;ul&gt;
+&lt;li&gt;Vem kan logga in?
+&lt;ul&gt;
+&lt;li&gt;Alla registrerade medlemmar&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Hur loggar du in?
+&lt;ul&gt;
+&lt;li&gt;Medlemsnummer (står på fakturan)&lt;/li&gt;
+&lt;li&gt;Primär e-postadress i Scoutnet&lt;/li&gt;
+&lt;li&gt;Personnummer (YYYYMMDD-NNNN)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Var hittar du ditt lösenord?
+&lt;ul&gt;
+&lt;li&gt;Tryck &amp;ldquo;glömt lösenord&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Skickas till primär e-postadress&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;ledarens-uppgifter&#34;&gt;Ledarens uppgifter&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Ledarens uppgift&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Stämmer medlemmar på avdelningen?&lt;/li&gt;
+&lt;li&gt;Hålla patrull, PL, vPL uppdaterat&lt;/li&gt;
+&lt;li&gt;Vilka är ledare/funktionär på avdelningen?&lt;/li&gt;
+&lt;li&gt;Statsbidragsansökan&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Manual: 
+&lt;a href=&#34;https://scoutnet.scout.se&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;scoutnet.scout.se&lt;/a&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;uppdatering&#34;&gt;Uppdatering&lt;/h3&gt;
+&lt;aside class=&#34;notes&#34;&gt;
+  &lt;p&gt;399 medlemmar, hur håller vi adresser och uppgifter uppdaterat?&lt;/p&gt;
+&lt;p&gt;Ringa runt?&lt;/p&gt;
+&lt;p&gt;Diskutera!&lt;/p&gt;
+&lt;/aside&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Hur håller vi uppgifterna uppdaterade?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Vem sköter uppdateringen?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Medlemsregistrerare&lt;/li&gt;
+&lt;li&gt;Ledare (AL)&lt;/li&gt;
+&lt;li&gt;Medlem&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;aside class=&#34;notes&#34;&gt;
+  Bra att hålla koll på.
+&lt;/aside&gt;
+&lt;img style=&#34;float: center; width: 50%; border-radius: 10%; border-style: none&#34; src=&#34;scoutid.png&#34;&gt;
+&lt;p&gt;En inloggning till flera scout-tjänster!&lt;/p&gt;
+&lt;/section&gt;
+&lt;hr&gt;
+&lt;aside class=&#34;notes&#34;&gt;
+  Information om hemsidan.
+&lt;/aside&gt;
+&lt;h2 id=&#34;hemsidan&#34;&gt;Hemsidan&lt;/h2&gt;
+&lt;p&gt;Nya 
+&lt;a href=&#34;https://hojdar.scout.se&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;hemsidan&lt;/a&gt;
+ är lanserad&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Vad står det om din avdelning?
+&lt;ul&gt;
+&lt;li&gt;Terminsprogram?&lt;/li&gt;
+&lt;li&gt;Ledare?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Hur håller vi hemsidan uppdaterad?
+&lt;ul&gt;
+&lt;li&gt;AL får åtkomst&lt;br/&gt;
+&lt;img style=&#34;width: 30%; border-style: none&#34; src=&#34;scoutid.png&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://hojdar.scout.se/wp-admin&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://hojdar.scout.se/wp-admin&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Manual: 
+&lt;a href=&#34;https://webbsupport.nykarwebb.se/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;webbsupport.nykarwebb.se&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;aside class=&#34;notes&#34;&gt;
+  Begränsad åtkomst istället för lösenord på hemsidan.
+&lt;/aside&gt;
+&lt;h2 id=&#34;kårmejl-och-kårdrive&#34;&gt;Kårmejl och kårdrive&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Alla LURK har en @hojdarscout.se-adress.
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;L&lt;/strong&gt;edare, &lt;strong&gt;U&lt;/strong&gt;tmanare, &lt;strong&gt;R&lt;/strong&gt;over, &lt;strong&gt;K&lt;/strong&gt;årfunktionärer&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Google-konto
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://mail.google.com/a/hojdarscout.se&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;mail.google.com/a/hojdarscout.se&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;Finns stöd för grupper, Google Drive m.m.
+&lt;ul&gt;
+&lt;li&gt;Kårpraxis, mallar, &amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Inloggning via &lt;br/&gt;&lt;img style=&#34;width: 30%; border-style: none&#34; src=&#34;scoutid.png&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;avslutande-fråga&#34;&gt;Avslutande fråga&lt;/h2&gt;
+&lt;p&gt;Nätverk | Projektorer | Skrivare | Scoutnet | Hemsida | Kårmejl/drive&lt;/p&gt;
+&lt;p&gt;Hur kan vi använda det här?&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Förslag:&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
+&lt;em&gt;Dela material&lt;/em&gt;
+&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
+&lt;em&gt;Aktivitetsbank&lt;/em&gt;
+&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
+&lt;em&gt;Kårens historia&lt;/em&gt;
+&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;mailto:it@hojdarscout.se&#34;&gt;it@hojdarscout.se&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>GDPR</title>
+      <link>https://fredrikbaberg.github.io/scouter/slides/2019gdpr/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://fredrikbaberg.github.io/scouter/slides/2019gdpr/</guid>
+      <description>&lt;h1 id=&#34;gdpr&#34;&gt;GDPR&lt;/h1&gt;
+&lt;hr&gt;
+&lt;section data-shortcode-section&gt;
+&lt;h1 id=&#34;översikt&#34;&gt;Översikt&lt;/h1&gt;
+&lt;h3 id=&#34;vad-är-dataskyddsförordningen&#34;&gt;Vad är dataskyddsförordningen?&lt;/h3&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;Stärkt skydd av behandling av personuppgifter&lt;/li&gt;
+&lt;li&gt;Gemensamt för EU&lt;/li&gt;
+&lt;li&gt;Trädde i kraft 25 maj 2018&lt;/li&gt;
+&lt;li&gt;Gäller oavsett format&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;personuppgift&#34;&gt;Personuppgift&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;”Varje upplysning som avser en identifierad eller identifierbar fysisk person.”&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Exempel:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Namn&lt;/li&gt;
+&lt;li&gt;Adress&lt;/li&gt;
+&lt;li&gt;Bild&lt;/li&gt;
+&lt;li&gt;Personnummer&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;känslig-personuppgift&#34;&gt;Känslig personuppgift&lt;/h3&gt;
+&lt;p&gt;Uppgifter om&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Religion&lt;/li&gt;
+&lt;li&gt;Politisk uppfattning&lt;/li&gt;
+&lt;li&gt;Hälsa&lt;/li&gt;
+&lt;li&gt;Personnummer&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;och några till&amp;hellip;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Får &lt;strong&gt;inte&lt;/strong&gt; behandlas (med några undantag)&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;grundregel&#34;&gt;Grundregel&lt;/h3&gt;
+&lt;p&gt;lagra inget!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Om&lt;/strong&gt; det inte finns laglig grund.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Avtal&lt;/li&gt;
+&lt;li&gt;Samtycke&lt;/li&gt;
+&lt;li&gt;Berättigat intresse&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Rättslig förpliktelse&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Myndighetsutövning&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Allmänt intresse&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Men: Annan lagstiftning &amp;ldquo;vinner&amp;rdquo; över GDPR.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;behandling&#34;&gt;Behandling&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Inhämtning
+&lt;ul&gt;
+&lt;li&gt;Insamling, Registrering&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Lagring&lt;/li&gt;
+&lt;li&gt;Hantering
+&lt;ul&gt;
+&lt;li&gt;Ändring, Läsning, Användning, Strukturering, &amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Delning&lt;/li&gt;
+&lt;li&gt;Gallring&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;hr&gt;
+&lt;section data-shortcode-section&gt;
+&lt;h1 id=&#34;behandling-1&#34;&gt;Behandling&lt;/h1&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;när-behandlar-vi-personuppgifter&#34;&gt;När behandlar vi personuppgifter?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Nyanmälning&lt;/li&gt;
+&lt;li&gt;Närvaro&lt;/li&gt;
+&lt;li&gt;Anmälning
+&lt;ul&gt;
+&lt;li&gt;övernattning&lt;/li&gt;
+&lt;li&gt;hajk&lt;/li&gt;
+&lt;li&gt;läger&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Utskick&lt;/li&gt;
+&lt;li&gt;&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;nya-scouter&#34;&gt;Nya scouter&lt;/h3&gt;
+&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
+förälder
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+-&amp;gt; ledare
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+-&amp;gt; medlemsregistrerare
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+-&amp;gt; ScoutNet
+&lt;/span&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;övernattning&#34;&gt;Övernattning&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Anmälan och hälsokort - känsliga personuppgifter!&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Hantera med försiktighet.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Förstör hälsokort efteråt&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Ta in så lite data som möjligt, men tillräckligt för att genomföra aktiviteten.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;vad-får-vi-samla-in&#34;&gt;Vad får vi samla in?&lt;/h3&gt;
+&lt;p&gt;Så lite som möjligt!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Bara det vi måste.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;hr&gt;
+&lt;section data-shortcode-section&gt;
+&lt;h1 id=&#34;överföring&#34;&gt;Överföring&lt;/h1&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;vad-får-vi-föra-över-mellan-avdelningarna&#34;&gt;Vad får vi föra över mellan avdelningarna?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Namn, personnummer och adress får skickas till mottagande avdelning och medlemsregistreraren.&lt;/li&gt;
+&lt;li&gt;Hälsouppgifter får &lt;strong&gt;INTE&lt;/strong&gt; skickas vidare.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;sammanfattning&#34;&gt;Sammanfattning&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Hantera inte mer personuppgifter än nödvändigt&lt;/li&gt;
+&lt;li&gt;Scoutnet är &amp;ldquo;GDPR säkert&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Hälsokort är känslig personuppgift, med högre krav.&lt;/li&gt;
+&lt;li&gt;GDPR gäller även lösa papper.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>GDPR</title>
+      <link>https://fredrikbaberg.github.io/scouter/slides/ledarhelg2019gdprmm/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://fredrikbaberg.github.io/scouter/slides/ledarhelg2019gdprmm/</guid>
+      <description>&lt;h1 id=&#34;ledarhelg&#34;&gt;Ledarhelg&lt;/h1&gt;
+&lt;h2 id=&#34;gdpr-och-lite-annat&#34;&gt;GDPR och lite annat&amp;hellip;&lt;/h2&gt;
+&lt;hr&gt;
+&lt;section data-shortcode-section&gt;
+&lt;h1 id=&#34;ämnen&#34;&gt;Ämnen&lt;/h1&gt;
+&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
+GDPR
+&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
+Scoutnet
+&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
+Höjdarscout.se
+&lt;/span&gt;&lt;/p&gt;
+&lt;/section&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;gdpr&#34;&gt;GDPR&lt;/h1&gt;
+&lt;hr&gt;
+&lt;section data-shortcode-section&gt;
+&lt;h1 id=&#34;översikt&#34;&gt;Översikt&lt;/h1&gt;
+&lt;h3 id=&#34;vad-är-dataskyddsförordningen&#34;&gt;Vad är dataskyddsförordningen?&lt;/h3&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;i-korthet&#34;&gt;I korthet&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Stärkt skydd av behandling av personuppgifter&lt;/li&gt;
+&lt;li&gt;Gemensamt för EU&lt;/li&gt;
+&lt;li&gt;Trädde i kraft 25 maj 2018&lt;/li&gt;
+&lt;li&gt;Gäller oavsett format&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;img src=&#34;gdpr/gdpr-santa.jpg&#34; alt=&#34;gdpr-santa.jpg&#34;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;personuppgift&#34;&gt;Personuppgift&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;”Varje upplysning som avser en identifierad eller identifierbar fysisk person.”&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
+Exempel:
+&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
+Namn
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+, Adress
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+, Telefonnummer
+&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
+Mejladress
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+, Medlemsnummer
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+, Foto
+&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
+Personnummer
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+, Hälsa
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+, m.m.
+&lt;/span&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;Information (digital eller fysisk) som kan kopplas till en människas privata, publika eller yrkesmässiga identitet&lt;/em&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;Flera olika typer av uppgifter kan identifiera en person&lt;/em&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;En grupp färre än 7 personer = identifierbart&lt;/em&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- &lt;span class=&#34;fragment &#34; &gt;
+  
+&lt;/span&gt; --&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;känslig-personuppgift&#34;&gt;Känslig personuppgift&lt;/h3&gt;
+&lt;p&gt;Uppgifter om&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Religion&lt;/li&gt;
+&lt;li&gt;Politisk uppfattning&lt;/li&gt;
+&lt;li&gt;Hälsa (allergier, sjukdomar och dyl.)&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Personnummer&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Lagöverträdelse&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;och några till&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Får &lt;strong&gt;inte&lt;/strong&gt; behandlas (med några undantag)&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;grundregel&#34;&gt;Grundregel&lt;/h3&gt;
+&lt;p&gt;Behandla inget!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Om&lt;/strong&gt; det inte finns laglig grund:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Avtal&lt;/li&gt;
+&lt;li&gt;Samtycke&lt;/li&gt;
+&lt;li&gt;Berättigat intresse&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Rättslig förpliktelse&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Myndighetsutövning&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Allmänt intresse&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
+Men: Annan lagstiftning “vinner” över GDPR.
+&lt;/span&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;vad-är-_behandling_&#34;&gt;Vad är &lt;em&gt;behandling&lt;/em&gt;?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Inhämtning
+&lt;ul&gt;
+&lt;li&gt;Insamling, Registrering, Framtagning&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Lagring&lt;/li&gt;
+&lt;li&gt;Hantering
+&lt;ul&gt;
+&lt;li&gt;Ändring, Läsning, Användning, Strukturering, Organisering, &amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Delning
+&lt;ul&gt;
+&lt;li&gt;Överföring, Spridning, Tillhandahållande&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Gallring
+&lt;ul&gt;
+&lt;li&gt;Lagring, Radering, Förstöring&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;rättigheter-för-den-registerade&#34;&gt;Rättigheter för den registerade&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Rätten till &lt;em&gt;information&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Rätten till &lt;em&gt;registerutdrag&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Rätten till &lt;em&gt;rättelse&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Rätten till &lt;em&gt;radering&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Rätten till &lt;em&gt;begränsning av behandling&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Rätten till &lt;em&gt;dataportabilitet&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Rätten till &lt;em&gt;invändning&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;grundläggande-principer-för-integritetsskydd&#34;&gt;Grundläggande principer för integritetsskydd&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;inte samla in&lt;/em&gt; mer information än vad som behövs&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;inte lämna ut&lt;/em&gt; den till fler än de som behöver se den&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;inte ha kvar&lt;/em&gt; informationen längre än nödvändigt&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;inte&lt;/em&gt; använda uppgifterna &lt;em&gt;till något annat&lt;/em&gt; än vad som var syftet när de samlades in&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!--
+
+### Personuppgiftsincidenter
+
+--&gt;
+&lt;!--
+- _Oavsiktlig_ eller _olaglig_ förstöring, förlust eller ändring av personuppgifter
+- _Obehörigt_ röjande av eller obehörig åtkomst till personuppgifterna
+
+- Ska _anmälas_ till Datainspektionen inte senare än _72 timmar_ efter det att man har fått vetskapen
+- I vissa fall ska den _registrerade_ som berörs av incidenten _informeras_
+
+- Ska _dokumenteras_ av personuppgiftsbehörige
+
+### Steg för att hantera personuppgifter
+
+1. Ändamål för behandling?
+2. Laglig grund?
+3. Nödvändigt?
+4. Korrekt och öppet
+5. Adekvata, relevanta och inte för omfattande
+
+ --&gt;
+&lt;/section&gt;
+&lt;hr&gt;
+&lt;section data-shortcode-section&gt;
+&lt;h1 id=&#34;i-kåren&#34;&gt;I kåren&lt;/h1&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;när-behandlar-vi-personuppgifter&#34;&gt;När behandlar vi personuppgifter?&lt;/h3&gt;
+&lt;p&gt;Förslag?&lt;/p&gt;
+&lt;aside class=&#34;notes&#34;&gt;
+  Förslag?
+&lt;/aside&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;när-behandlar-vi-personuppgifter-1&#34;&gt;När behandlar vi personuppgifter?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Nyanmälning&lt;/li&gt;
+&lt;li&gt;Närvaro&lt;/li&gt;
+&lt;li&gt;Anmälan till aktiviteter&lt;/li&gt;
+&lt;li&gt;Utskick&lt;/li&gt;
+&lt;li&gt;&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- ---
+
+### Nya scouter
+
+&lt;span class=&#34;fragment &#34; &gt;
+  Förälder
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+  -&amp;gt; nyanmälningsansvarig
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+  -&amp;gt; ledare
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+  -&amp;gt; förälder
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+  -&amp;gt; medlemsregisterare
+&lt;/span&gt;
+
+---
+
+### Närvaro
+
+- Namn
+- Födelsedatum
+- Postnummer --&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;övernattning&#34;&gt;Övernattning&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Anmälan och hälsokort - känsliga personuppgifter!&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Hantera med försiktighet.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Förstör hälsokort efteråt&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Ta in så lite data som möjligt, men tillräckligt för att genomföra aktiviteten.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;vad-får-vi-samla-in&#34;&gt;Vad får vi samla in?&lt;/h3&gt;
+&lt;p&gt;Så lite som möjligt - bara det vi måste!&lt;/p&gt;
+&lt;/section&gt;
+&lt;hr&gt;
+&lt;section data-shortcode-section&gt;
+&lt;h1 id=&#34;överföring&#34;&gt;Överföring&lt;/h1&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;vad-får-vi-föra-över-mellan-avdelningarna&#34;&gt;Vad får vi föra över mellan avdelningarna?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Namn, personnummer och adress får skickas till mottagande avdelning och medlemsregistreraren.&lt;/li&gt;
+&lt;li&gt;Hälsouppgifter får &lt;strong&gt;INTE&lt;/strong&gt; skickas vidare.
+&lt;ul&gt;
+&lt;li&gt;Enklare att hålla aktuella&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;fall&#34;&gt;Fall&lt;/h1&gt;
+&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
+Ledare skickar “&lt;em&gt;Pelle&lt;/em&gt; är sjuk och kommer inte på kvällens möte” på Facebook Messenger (eller annan chatt)
+&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
+Närvarokort som ligger framme
+&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
+“Bra att ha”-uppgifter, vad sparar vi och hur länge?
+&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
+Ha en egen lista med uppgifter till scouterna på avdelningen?
+&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
+Hälsokort från övernattning/hajk/läger?
+&lt;/span&gt;&lt;/p&gt;
+&lt;/section&gt;
+&lt;hr&gt;
+&lt;section data-shortcode-section&gt;
+&lt;h2 id=&#34;sammanfattning&#34;&gt;Sammanfattning&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Hantera inte mer personuppgifter än nödvändigt&lt;/li&gt;
+&lt;li&gt;Hälsokort är känslig personuppgift, med högre krav.&lt;/li&gt;
+&lt;li&gt;GDPR gäller även lösa papper.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;hr&gt;
+&lt;section data-shortcode-section&gt;
+&lt;h1 id=&#34;höjdarscoutse&#34;&gt;höjdarscout.se&lt;/h1&gt;
+&lt;hr&gt;
+&lt;figure&gt;
+&lt;p&gt;&lt;a data-fancybox=&#34;&#34; href=&#34;hemsida/gammal_hemsida.png&#34; &gt;
+&lt;img data-src=&#34;hemsida/gammal_hemsida.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;80%&#34; &gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/figure&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;frågor&#34;&gt;Frågor:&lt;/h2&gt;
+&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
+Hur ofta är ni inne?
+&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
+Syfte med hemsidan?
+&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
+Innehåll?
+&lt;/span&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;figure&gt;
+&lt;p&gt;&lt;a data-fancybox=&#34;&#34; href=&#34;hemsida/ny_gammal_hemsida.png&#34; &gt;
+&lt;img data-src=&#34;hemsida/ny_gammal_hemsida.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/figure&gt;
+&lt;hr&gt;
+&lt;figure&gt;
+&lt;p&gt;&lt;a data-fancybox=&#34;&#34; href=&#34;hemsida/ny_hemsida.png&#34; &gt;
+&lt;img data-src=&#34;hemsida/ny_hemsida.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;80%&#34; &gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/figure&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;Inloggning kopplad till Scoutnet (ScoutID)&lt;/li&gt;
+&lt;li&gt;Uppdaterad säkerhet (HTTPS)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;slutligen&#34;&gt;Slutligen&lt;/h1&gt;
+&lt;p&gt;Undersöker (&lt;em&gt;inga beslut tagna&lt;/em&gt;):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Förbättrade mejllistor&lt;/li&gt;
+&lt;li&gt;Google Teamdrive på avdelning/gren/kårnivå&lt;/li&gt;
+&lt;li&gt;Kårmejl (?)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;hr&gt;
+&lt;section data-shortcode-section&gt;
+&lt;h1 id=&#34;scoutnet&#34;&gt;Scoutnet&lt;/h1&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;vad-är-scoutnet&#34;&gt;Vad är Scoutnet?&lt;/h2&gt;
+&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
+Medlemsregister för riksorganisationen Scouterna
+&lt;/span&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;funktioner&#34;&gt;Funktioner&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Beroende på behörighet:&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
+Ändra sina egna uppgifter
+&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
+Hantera scouter på avdelningen
+&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
+Mejllistor inom kåren
+&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
+Statsbidragsansökan
+&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
+Rapporter
+&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
+Aktiviteter (anmälan, skapa)
+&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;figure&gt;
+&lt;p&gt;&lt;a data-fancybox=&#34;&#34; href=&#34;scoutnet/Scoutnet.PNG&#34; &gt;
+&lt;img data-src=&#34;scoutnet/Scoutnet.PNG&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/figure&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;varför-scoutnet&#34;&gt;Varför Scoutnet?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;GDPR-säkrat!&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Uppgifterna finns redan där&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Alla medlemmar har konto&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;begränsningar&#34;&gt;Begränsningar&lt;/h2&gt;
+&lt;aside class=&#34;notes&#34;&gt;
+  &lt;p&gt;Dubblerande scouter kan inte hanteras av AL (annan avdelning).&lt;/p&gt;
+&lt;p&gt;Otydligt med mejllistor&lt;/p&gt;
+&lt;/aside&gt;
+&lt;ul&gt;
+&lt;li&gt;Dubblerande scouter
+&lt;ul&gt;
+&lt;li&gt;Hantera&lt;/li&gt;
+&lt;li&gt;Mejllistor&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Aktiviteter
+&lt;ul&gt;
+&lt;li&gt;Skapa aktiviteter är krångligt&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
+&lt;em&gt;Högre prioritet för utveckling efter DJ2018&lt;/em&gt;
+&lt;/span&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;på-gång&#34;&gt;På gång&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Uppdaterad manual, senast Scoutforum (13-15 / 9 2019)&lt;/li&gt;
+&lt;li&gt;Inloggning för vårdnadshavare&lt;/li&gt;
+&lt;li&gt;Färdiga mallar för aktiviteter (vårvintern)&lt;/li&gt;
+&lt;li&gt;Hälsoinformationsmodul (idé, inte klart)&lt;/li&gt;
+&lt;li&gt;ScoutID&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

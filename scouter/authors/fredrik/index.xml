@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Scouter</title>
+    <link>https://fredrikbaberg.github.io/scouter/authors/fredrik/</link>
+      <atom:link href="https://fredrikbaberg.github.io/scouter/authors/fredrik/index.xml" rel="self" type="application/rss+xml" />
+    <description>Scouter</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>sv-se</language><copyright>©Fredrik Båberg 2020</copyright><lastBuildDate>Sat, 25 Jan 2020 09:30:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Scouter</title>
+      <link>https://fredrikbaberg.github.io/scouter/authors/fredrik/</link>
+    </image>
+    
+    <item>
+      <title>IT i Mälarhöjdens scoutkår</title>
+      <link>https://fredrikbaberg.github.io/scouter/talk/it/</link>
+      <pubDate>Sat, 25 Jan 2020 09:30:00 +0000</pubDate>
+      <guid>https://fredrikbaberg.github.io/scouter/talk/it/</guid>
+      <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Slides can be added in a few ways:
+
+- **Create** slides using Academic&#39;s [*Slides*](https://sourcethemes.com/academic/docs/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
+- **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
+- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://sourcethemes.com/academic/docs/writing-markdown-latex/).
+
+Further talk details can easily be added to this page using *Markdown* and $\rm \LaTeX$ math code. --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>GDPR</title>
+      <link>https://fredrikbaberg.github.io/scouter/talk/gdpr/</link>
+      <pubDate>Sun, 17 Mar 2019 15:30:00 +0000</pubDate>
+      <guid>https://fredrikbaberg.github.io/scouter/talk/gdpr/</guid>
+      <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Slides can be added in a few ways:
+
+- **Create** slides using Academic&#39;s [*Slides*](https://sourcethemes.com/academic/docs/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
+- **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
+- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://sourcethemes.com/academic/docs/writing-markdown-latex/).
+
+Further talk details can easily be added to this page using *Markdown* and $\rm \LaTeX$ math code. --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>GDPR och lite mer</title>
+      <link>https://fredrikbaberg.github.io/scouter/talk/ledarhelg2019/</link>
+      <pubDate>Fri, 25 Jan 2019 09:30:00 +0000</pubDate>
+      <guid>https://fredrikbaberg.github.io/scouter/talk/ledarhelg2019/</guid>
+      <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Slides can be added in a few ways:
+
+- **Create** slides using Academic&#39;s [*Slides*](https://sourcethemes.com/academic/docs/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
+- **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
+- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://sourcethemes.com/academic/docs/writing-markdown-latex/).
+
+Further talk details can easily be added to this page using *Markdown* and $\rm \LaTeX$ math code. --&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

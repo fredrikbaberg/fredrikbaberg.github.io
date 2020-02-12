@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects | Scouter</title>
+    <link>https://fredrikbaberg.github.io/scouter/project/</link>
+      <atom:link href="https://fredrikbaberg.github.io/scouter/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>sv-se</language><copyright>©Fredrik Båberg 2020</copyright><lastBuildDate>Wed, 23 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Projects</title>
+      <link>https://fredrikbaberg.github.io/scouter/project/</link>
+    </image>
+    
+    <item>
+      <title>Höjdarscout.se</title>
+      <link>https://fredrikbaberg.github.io/scouter/project/hojdarscout/</link>
+      <pubDate>Wed, 23 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://fredrikbaberg.github.io/scouter/project/hojdarscout/</guid>
+      <description>&lt;p&gt;Kårens hemsida&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Kårmejl och -drive</title>
+      <link>https://fredrikbaberg.github.io/scouter/project/karmejl/</link>
+      <pubDate>Wed, 23 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://fredrikbaberg.github.io/scouter/project/karmejl/</guid>
+      <description>&lt;p&gt;Kårens mejl och drive.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Scoutnet</title>
+      <link>https://fredrikbaberg.github.io/scouter/project/scoutnet/</link>
+      <pubDate>Wed, 23 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://fredrikbaberg.github.io/scouter/project/scoutnet/</guid>
+      <description>&lt;p&gt;Scouternas medlemsregister Scoutnet&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
