@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Start on Välkommen till Baberg.nu</title>
-    <link>https://baberg.nu/</link>
+    <link>https://fredrikbaberg.github.io/</link>
     <description>Recent content in Start on Välkommen till Baberg.nu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>sv-se</language>
     <lastBuildDate>Tue, 06 Nov 2018 09:41:29 +0100</lastBuildDate>
     
-	<atom:link href="https://baberg.nu/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://fredrikbaberg.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

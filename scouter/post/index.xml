@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts | Scouter</title>
-    <link>https://baberg.nu/scouter/post/</link>
-      <atom:link href="https://baberg.nu/scouter/post/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://fredrikbaberg.github.io/scouter/post/</link>
+      <atom:link href="https://fredrikbaberg.github.io/scouter/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>sv-se</language><copyright>©Fredrik Båberg 2020</copyright>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Posts</title>
-      <link>https://baberg.nu/scouter/post/</link>
+      <link>https://fredrikbaberg.github.io/scouter/post/</link>
     </image>
     
   </channel>

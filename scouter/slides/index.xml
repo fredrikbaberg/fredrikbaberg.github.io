@@ -2,15 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Slides | Scouter</title>
-    <link>https://baberg.nu/scouter/slides/</link>
-      <atom:link href="https://baberg.nu/scouter/slides/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://fredrikbaberg.github.io/scouter/slides/</link>
+      <atom:link href="https://fredrikbaberg.github.io/scouter/slides/index.xml" rel="self" type="application/rss+xml" />
     <description>Slides</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>sv-se</language><copyright>©Fredrik Båberg 2020</copyright><lastBuildDate>Sat, 25 Jan 2020 09:15:00 +0000</lastBuildDate>
     <item>
       <title>IT</title>
-      <link>https://baberg.nu/scouter/slides/ledarhelg2020it/</link>
+      <link>https://fredrikbaberg.github.io/scouter/slides/ledarhelg2020it/</link>
       <pubDate>Sat, 25 Jan 2020 09:15:00 +0000</pubDate>
-      <guid>https://baberg.nu/scouter/slides/ledarhelg2020it/</guid>
+      <guid>https://fredrikbaberg.github.io/scouter/slides/ledarhelg2020it/</guid>
       <description>&lt;aside class=&#34;notes&#34;&gt;
   Presentera mig.
 &lt;/aside&gt;
@@ -312,9 +312,9 @@ Primär e-postadress är viktig!
     
     <item>
       <title>GDPR</title>
-      <link>https://baberg.nu/scouter/slides/2019gdpr/</link>
+      <link>https://fredrikbaberg.github.io/scouter/slides/2019gdpr/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://baberg.nu/scouter/slides/2019gdpr/</guid>
+      <guid>https://fredrikbaberg.github.io/scouter/slides/2019gdpr/</guid>
       <description>&lt;h1 id=&#34;gdpr&#34;&gt;GDPR&lt;/h1&gt;
 &lt;hr&gt;
 &lt;section data-shortcode-section&gt;
@@ -457,9 +457,9 @@ förälder
     
     <item>
       <title>GDPR</title>
-      <link>https://baberg.nu/scouter/slides/ledarhelg2019gdprmm/</link>
+      <link>https://fredrikbaberg.github.io/scouter/slides/ledarhelg2019gdprmm/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://baberg.nu/scouter/slides/ledarhelg2019gdprmm/</guid>
+      <guid>https://fredrikbaberg.github.io/scouter/slides/ledarhelg2019gdprmm/</guid>
       <description>&lt;h1 id=&#34;ledarhelg&#34;&gt;Ledarhelg&lt;/h1&gt;
 &lt;h2 id=&#34;gdpr-och-lite-annat&#34;&gt;GDPR och lite annat&amp;hellip;&lt;/h2&gt;
 &lt;hr&gt;
