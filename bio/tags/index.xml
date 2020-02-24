@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags | Academic</title>
-    <link>https://fredrikbaberg.github.io/bio/tags/</link>
-      <atom:link href="https://fredrikbaberg.github.io/bio/tags/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://baberg.nu/bio/tags/</link>
+      <atom:link href="https://baberg.nu/bio/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2018 Fredrik Baberg. This is a personal webpage, [more information](http://www.kth.se/web/disclaimer.html).</copyright><lastBuildDate>Tue, 06 Nov 2018 16:22:03 +0100</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Tags</title>
-      <link>https://fredrikbaberg.github.io/bio/tags/</link>
+      <link>https://baberg.nu/bio/tags/</link>
     </image>
     
     <item>
       <title>FP7</title>
-      <link>https://fredrikbaberg.github.io/bio/tags/fp7/</link>
+      <link>https://baberg.nu/bio/tags/fp7/</link>
       <pubDate>Tue, 06 Nov 2018 16:22:03 +0100</pubDate>
-      <guid>https://fredrikbaberg.github.io/bio/tags/fp7/</guid>
+      <guid>https://baberg.nu/bio/tags/fp7/</guid>
       <description></description>
     </item>
     
     <item>
       <title>search and rescue</title>
-      <link>https://fredrikbaberg.github.io/bio/tags/search-and-rescue/</link>
+      <link>https://baberg.nu/bio/tags/search-and-rescue/</link>
       <pubDate>Tue, 06 Nov 2018 16:22:03 +0100</pubDate>
-      <guid>https://fredrikbaberg.github.io/bio/tags/search-and-rescue/</guid>
+      <guid>https://baberg.nu/bio/tags/search-and-rescue/</guid>
       <description></description>
     </item>
     
     <item>
       <title>FLC</title>
-      <link>https://fredrikbaberg.github.io/bio/tags/flc/</link>
+      <link>https://baberg.nu/bio/tags/flc/</link>
       <pubDate>Sun, 23 Oct 2016 00:00:00 +0000</pubDate>
-      <guid>https://fredrikbaberg.github.io/bio/tags/flc/</guid>
+      <guid>https://baberg.nu/bio/tags/flc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>network</title>
-      <link>https://fredrikbaberg.github.io/bio/tags/network/</link>
+      <link>https://baberg.nu/bio/tags/network/</link>
       <pubDate>Mon, 28 Sep 2015 00:00:00 +0000</pubDate>
-      <guid>https://fredrikbaberg.github.io/bio/tags/network/</guid>
+      <guid>https://baberg.nu/bio/tags/network/</guid>
       <description></description>
     </item>
     

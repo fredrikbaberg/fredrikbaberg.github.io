@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>FLC | Academic</title>
-    <link>https://fredrikbaberg.github.io/bio/tags/flc/</link>
-      <atom:link href="https://fredrikbaberg.github.io/bio/tags/flc/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://baberg.nu/bio/tags/flc/</link>
+      <atom:link href="https://baberg.nu/bio/tags/flc/index.xml" rel="self" type="application/rss+xml" />
     <description>FLC</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2018 Fredrik Baberg. This is a personal webpage, [more information](http://www.kth.se/web/disclaimer.html).</copyright><lastBuildDate>Sun, 23 Oct 2016 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>FLC</title>
-      <link>https://fredrikbaberg.github.io/bio/tags/flc/</link>
+      <link>https://baberg.nu/bio/tags/flc/</link>
     </image>
     
     <item>
       <title>Free look UGV teleoperation control tested in game environment: Enhanced performance and reduced workload</title>
-      <link>https://fredrikbaberg.github.io/bio/publication/flc/</link>
+      <link>https://baberg.nu/bio/publication/flc/</link>
       <pubDate>Sun, 23 Oct 2016 00:00:00 +0000</pubDate>
-      <guid>https://fredrikbaberg.github.io/bio/publication/flc/</guid>
+      <guid>https://baberg.nu/bio/publication/flc/</guid>
       <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -37,9 +37,9 @@ Supplementary notes can be added here, including [code and math](https://sourcet
     
     <item>
       <title>Extending a UGV Teleoperation FLC Interface with Wireless Network Connectivity Information</title>
-      <link>https://fredrikbaberg.github.io/bio/publication/flc_network/</link>
+      <link>https://baberg.nu/bio/publication/flc_network/</link>
       <pubDate>Mon, 28 Sep 2015 00:00:00 +0000</pubDate>
-      <guid>https://fredrikbaberg.github.io/bio/publication/flc_network/</guid>
+      <guid>https://baberg.nu/bio/publication/flc_network/</guid>
       <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
