@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Scoutnet | Scouter</title>
-    <link>https://fredrikbaberg.github.io/scouter/tags/scoutnet/</link>
-      <atom:link href="https://fredrikbaberg.github.io/scouter/tags/scoutnet/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://baberg.nu/scouter/tags/scoutnet/</link>
+      <atom:link href="https://baberg.nu/scouter/tags/scoutnet/index.xml" rel="self" type="application/rss+xml" />
     <description>Scoutnet</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>sv-se</language><copyright>©Fredrik Båberg 2020</copyright><lastBuildDate>Sat, 25 Jan 2020 09:30:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Scoutnet</title>
-      <link>https://fredrikbaberg.github.io/scouter/tags/scoutnet/</link>
+      <link>https://baberg.nu/scouter/tags/scoutnet/</link>
     </image>
     
     <item>
       <title>IT i Mälarhöjdens scoutkår</title>
-      <link>https://fredrikbaberg.github.io/scouter/talk/it/</link>
+      <link>https://baberg.nu/scouter/talk/it/</link>
       <pubDate>Sat, 25 Jan 2020 09:30:00 +0000</pubDate>
-      <guid>https://fredrikbaberg.github.io/scouter/talk/it/</guid>
+      <guid>https://baberg.nu/scouter/talk/it/</guid>
       <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
@@ -36,9 +36,9 @@ Further talk details can easily be added to this page using *Markdown* and $\rm 
     
     <item>
       <title>GDPR och lite mer</title>
-      <link>https://fredrikbaberg.github.io/scouter/talk/ledarhelg2019/</link>
+      <link>https://baberg.nu/scouter/talk/ledarhelg2019/</link>
       <pubDate>Fri, 25 Jan 2019 09:30:00 +0000</pubDate>
-      <guid>https://fredrikbaberg.github.io/scouter/talk/ledarhelg2019/</guid>
+      <guid>https://baberg.nu/scouter/talk/ledarhelg2019/</guid>
       <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
@@ -58,9 +58,9 @@ Further talk details can easily be added to this page using *Markdown* and $\rm 
     
     <item>
       <title>Scoutnet</title>
-      <link>https://fredrikbaberg.github.io/scouter/project/scoutnet/</link>
+      <link>https://baberg.nu/scouter/project/scoutnet/</link>
       <pubDate>Wed, 23 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://fredrikbaberg.github.io/scouter/project/scoutnet/</guid>
+      <guid>https://baberg.nu/scouter/project/scoutnet/</guid>
       <description>&lt;p&gt;Scouternas medlemsregister Scoutnet&lt;/p&gt;
 </description>
     </item>
