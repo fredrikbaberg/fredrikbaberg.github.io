@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>search and rescue | Academic</title>
-    <link>https://baberg.nu/bio/tags/search-and-rescue/</link>
-      <atom:link href="https://baberg.nu/bio/tags/search-and-rescue/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.baberg.nu/bio/tags/search-and-rescue/</link>
+      <atom:link href="https://www.baberg.nu/bio/tags/search-and-rescue/index.xml" rel="self" type="application/rss+xml" />
     <description>search and rescue</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2018 Fredrik Baberg. This is a personal webpage, [more information](http://www.kth.se/web/disclaimer.html).</copyright><lastBuildDate>Tue, 06 Nov 2018 16:22:03 +0100</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>search and rescue</title>
-      <link>https://baberg.nu/bio/tags/search-and-rescue/</link>
+      <link>https://www.baberg.nu/bio/tags/search-and-rescue/</link>
     </image>
     
     <item>
       <title>TRADR: Long-Term Human-Robot Teaming for Robot-Assisted Disaster Response</title>
-      <link>https://baberg.nu/bio/project/tradr/</link>
+      <link>https://www.baberg.nu/bio/project/tradr/</link>
       <pubDate>Tue, 06 Nov 2018 16:22:03 +0100</pubDate>
-      <guid>https://baberg.nu/bio/project/tradr/</guid>
+      <guid>https://www.baberg.nu/bio/project/tradr/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Free look UGV teleoperation control tested in game environment: Enhanced performance and reduced workload</title>
-      <link>https://baberg.nu/bio/publication/flc/</link>
+      <link>https://www.baberg.nu/bio/publication/flc/</link>
       <pubDate>Sun, 23 Oct 2016 00:00:00 +0000</pubDate>
-      <guid>https://baberg.nu/bio/publication/flc/</guid>
+      <guid>https://www.baberg.nu/bio/publication/flc/</guid>
       <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -45,9 +45,9 @@ Supplementary notes can be added here, including [code and math](https://sourcet
     
     <item>
       <title>Extending a UGV Teleoperation FLC Interface with Wireless Network Connectivity Information</title>
-      <link>https://baberg.nu/bio/publication/flc_network/</link>
+      <link>https://www.baberg.nu/bio/publication/flc_network/</link>
       <pubDate>Mon, 28 Sep 2015 00:00:00 +0000</pubDate>
-      <guid>https://baberg.nu/bio/publication/flc_network/</guid>
+      <guid>https://www.baberg.nu/bio/publication/flc_network/</guid>
       <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.

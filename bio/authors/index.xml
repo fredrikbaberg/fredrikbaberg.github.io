@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors | Academic</title>
-    <link>https://baberg.nu/bio/authors/</link>
-      <atom:link href="https://baberg.nu/bio/authors/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.baberg.nu/bio/authors/</link>
+      <atom:link href="https://www.baberg.nu/bio/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2018 Fredrik Baberg. This is a personal webpage, [more information](http://www.kth.se/web/disclaimer.html).</copyright>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Authors</title>
-      <link>https://baberg.nu/bio/authors/</link>
+      <link>https://www.baberg.nu/bio/authors/</link>
     </image>
     
     <item>
       <title></title>
-      <link>https://baberg.nu/bio/authors/admin/</link>
+      <link>https://www.baberg.nu/bio/authors/admin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://baberg.nu/bio/authors/admin/</guid>
+      <guid>https://www.baberg.nu/bio/authors/admin/</guid>
       <description>&lt;p&gt;Fredrik Båberg is a Ph.D. student in computer science at the Robotics Perception Learning (RPL), previously CVAP, lab at KTH Royal Institute of Technology.&lt;/p&gt;
 </description>
     </item>

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>IT | Scouter</title>
-    <link>https://baberg.nu/scouter/tags/it/</link>
-      <atom:link href="https://baberg.nu/scouter/tags/it/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.baberg.nu/scouter/tags/it/</link>
+      <atom:link href="https://www.baberg.nu/scouter/tags/it/index.xml" rel="self" type="application/rss+xml" />
     <description>IT</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>sv-se</language><copyright>©Fredrik Båberg 2020</copyright><lastBuildDate>Sat, 25 Jan 2020 09:30:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>IT</title>
-      <link>https://baberg.nu/scouter/tags/it/</link>
+      <link>https://www.baberg.nu/scouter/tags/it/</link>
     </image>
     
     <item>
       <title>IT i Mälarhöjdens scoutkår</title>
-      <link>https://baberg.nu/scouter/talk/it/</link>
+      <link>https://www.baberg.nu/scouter/talk/it/</link>
       <pubDate>Sat, 25 Jan 2020 09:30:00 +0000</pubDate>
-      <guid>https://baberg.nu/scouter/talk/it/</guid>
+      <guid>https://www.baberg.nu/scouter/talk/it/</guid>
       <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.

@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Academic</title>
-    <link>https://baberg.nu/bio/authors/admin/</link>
-      <atom:link href="https://baberg.nu/bio/authors/admin/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.baberg.nu/bio/authors/admin/</link>
+      <atom:link href="https://www.baberg.nu/bio/authors/admin/index.xml" rel="self" type="application/rss+xml" />
     <description>Academic</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2018 Fredrik Baberg. This is a personal webpage, [more information](http://www.kth.se/web/disclaimer.html).</copyright>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Academic</title>
-      <link>https://baberg.nu/bio/authors/admin/</link>
+      <link>https://www.baberg.nu/bio/authors/admin/</link>
     </image>
     
   </channel>

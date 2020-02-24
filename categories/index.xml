@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Välkommen till Baberg.nu</title>
-    <link>https://baberg.nu/categories.html</link>
+    <link>https://www.baberg.nu/categories.html</link>
     <description>Recent content in Categories on Välkommen till Baberg.nu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>sv-se</language>
     
-	<atom:link href="https://baberg.nu/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.baberg.nu/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
