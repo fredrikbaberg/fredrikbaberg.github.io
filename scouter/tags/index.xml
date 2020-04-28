@@ -7,50 +7,10 @@
     <description>Tags</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>sv-se</language><copyright>©Fredrik Båberg 2020</copyright><lastBuildDate>Sat, 25 Jan 2020 09:30:00 +0000</lastBuildDate>
     <image>
-      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <url>https://baberg.nu/scouter/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Tags</title>
       <link>https://baberg.nu/scouter/tags/</link>
     </image>
-    
-    <item>
-      <title>Hemsida</title>
-      <link>https://baberg.nu/scouter/tags/hemsida/</link>
-      <pubDate>Sat, 25 Jan 2020 09:30:00 +0000</pubDate>
-      <guid>https://baberg.nu/scouter/tags/hemsida/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>IT</title>
-      <link>https://baberg.nu/scouter/tags/it/</link>
-      <pubDate>Sat, 25 Jan 2020 09:30:00 +0000</pubDate>
-      <guid>https://baberg.nu/scouter/tags/it/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Kårmejl</title>
-      <link>https://baberg.nu/scouter/tags/karmejl/</link>
-      <pubDate>Sat, 25 Jan 2020 09:30:00 +0000</pubDate>
-      <guid>https://baberg.nu/scouter/tags/karmejl/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Scoutnet</title>
-      <link>https://baberg.nu/scouter/tags/scoutnet/</link>
-      <pubDate>Sat, 25 Jan 2020 09:30:00 +0000</pubDate>
-      <guid>https://baberg.nu/scouter/tags/scoutnet/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>GDPR</title>
-      <link>https://baberg.nu/scouter/tags/gdpr/</link>
-      <pubDate>Sun, 17 Mar 2019 15:30:00 +0000</pubDate>
-      <guid>https://baberg.nu/scouter/tags/gdpr/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>

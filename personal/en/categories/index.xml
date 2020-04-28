@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories | Personal page</title>
+    <link>https://baberg.nu/personal/en/categories/</link>
+      <atom:link href="https://baberg.nu/personal/en/categories/index.xml" rel="self" type="application/rss+xml" />
+    <description>Categories</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Fredrik Båberg 2020</copyright><lastBuildDate>Tue, 28 Apr 2020 08:15:00 +0200</lastBuildDate>
+    <image>
+      <url>https://baberg.nu/personal/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Categories</title>
+      <link>https://baberg.nu/personal/en/categories/</link>
+    </image>
+    
+  </channel>
+</rss>

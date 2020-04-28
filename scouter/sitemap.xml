@@ -78,6 +78,11 @@
   </url>
   
   <url>
+    <loc>https://baberg.nu/scouter/tutorials/</loc>
+    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://baberg.nu/scouter/tags/gdpr/</loc>
     <lastmod>2019-03-17T15:30:00+00:00</lastmod>
   </url>
@@ -85,11 +90,6 @@
   <url>
     <loc>https://baberg.nu/scouter/talk/gdpr/</loc>
     <lastmod>2019-03-17T15:30:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://baberg.nu/scouter/slides/2019gdpr/</loc>
-    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -124,10 +124,6 @@
   
   <url>
     <loc>https://baberg.nu/scouter/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://baberg.nu/scouter/tutorials/</loc>
   </url>
   
   <url>

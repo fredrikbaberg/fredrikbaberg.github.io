@@ -205,8 +205,7 @@ Primär e-postadress är viktig!
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Manual: 
-&lt;a href=&#34;https://scoutnet.scout.se&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;scoutnet.scout.se&lt;/a&gt;
-&lt;/p&gt;
+&lt;a href=&#34;https://scoutnet.scout.se&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;scoutnet.scout.se&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
@@ -242,8 +241,7 @@ Primär e-postadress är viktig!
 &lt;/aside&gt;
 &lt;h2 id=&#34;hemsidan&#34;&gt;Hemsidan&lt;/h2&gt;
 &lt;p&gt;Nya 
-&lt;a href=&#34;https://hojdar.scout.se&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;hemsidan&lt;/a&gt;
- är lanserad&lt;/p&gt;
+&lt;a href=&#34;https://hojdar.scout.se&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;hemsidan&lt;/a&gt; är lanserad&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Vad står det om din avdelning?
 &lt;ul&gt;
@@ -257,13 +255,11 @@ Primär e-postadress är viktig!
 &lt;img style=&#34;width: 30%; border-style: none&#34; src=&#34;scoutid.png&#34;&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;a href=&#34;https://hojdar.scout.se/wp-admin&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://hojdar.scout.se/wp-admin&lt;/a&gt;
-&lt;/li&gt;
+&lt;a href=&#34;https://hojdar.scout.se/wp-admin&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://hojdar.scout.se/wp-admin&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;Manual: 
-&lt;a href=&#34;https://webbsupport.nykarwebb.se/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;webbsupport.nykarwebb.se&lt;/a&gt;
-&lt;/li&gt;
+&lt;a href=&#34;https://webbsupport.nykarwebb.se/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;webbsupport.nykarwebb.se&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -281,8 +277,7 @@ Primär e-postadress är viktig!
 &lt;li&gt;Google-konto
 &lt;ul&gt;
 &lt;li&gt;
-&lt;a href=&#34;https://mail.google.com/a/hojdarscout.se&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;mail.google.com/a/hojdarscout.se&lt;/a&gt;
-&lt;/li&gt;
+&lt;a href=&#34;https://mail.google.com/a/hojdarscout.se&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;mail.google.com/a/hojdarscout.se&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Finns stöd för grupper, Google Drive m.m.
 &lt;ul&gt;
 &lt;li&gt;Kårpraxis, mallar, &amp;hellip;&lt;/li&gt;
@@ -307,151 +302,6 @@ Primär e-postadress är viktig!
 &lt;em&gt;Kårens historia&lt;/em&gt;
 &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;mailto:it@hojdarscout.se&#34;&gt;it@hojdarscout.se&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>GDPR</title>
-      <link>https://baberg.nu/scouter/slides/2019gdpr/</link>
-      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://baberg.nu/scouter/slides/2019gdpr/</guid>
-      <description>&lt;h1 id=&#34;gdpr&#34;&gt;GDPR&lt;/h1&gt;
-&lt;hr&gt;
-&lt;section data-shortcode-section&gt;
-&lt;h1 id=&#34;översikt&#34;&gt;Översikt&lt;/h1&gt;
-&lt;h3 id=&#34;vad-är-dataskyddsförordningen&#34;&gt;Vad är dataskyddsförordningen?&lt;/h3&gt;
-&lt;hr&gt;
-&lt;ul&gt;
-&lt;li&gt;Stärkt skydd av behandling av personuppgifter&lt;/li&gt;
-&lt;li&gt;Gemensamt för EU&lt;/li&gt;
-&lt;li&gt;Trädde i kraft 25 maj 2018&lt;/li&gt;
-&lt;li&gt;Gäller oavsett format&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;personuppgift&#34;&gt;Personuppgift&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;”Varje upplysning som avser en identifierad eller identifierbar fysisk person.”&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Exempel:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Namn&lt;/li&gt;
-&lt;li&gt;Adress&lt;/li&gt;
-&lt;li&gt;Bild&lt;/li&gt;
-&lt;li&gt;Personnummer&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;känslig-personuppgift&#34;&gt;Känslig personuppgift&lt;/h3&gt;
-&lt;p&gt;Uppgifter om&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Religion&lt;/li&gt;
-&lt;li&gt;Politisk uppfattning&lt;/li&gt;
-&lt;li&gt;Hälsa&lt;/li&gt;
-&lt;li&gt;Personnummer&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;och några till&amp;hellip;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Får &lt;strong&gt;inte&lt;/strong&gt; behandlas (med några undantag)&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;grundregel&#34;&gt;Grundregel&lt;/h3&gt;
-&lt;p&gt;lagra inget!&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Om&lt;/strong&gt; det inte finns laglig grund.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Avtal&lt;/li&gt;
-&lt;li&gt;Samtycke&lt;/li&gt;
-&lt;li&gt;Berättigat intresse&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Rättslig förpliktelse&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Myndighetsutövning&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Allmänt intresse&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Men: Annan lagstiftning &amp;ldquo;vinner&amp;rdquo; över GDPR.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;behandling&#34;&gt;Behandling&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Inhämtning
-&lt;ul&gt;
-&lt;li&gt;Insamling, Registrering&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Lagring&lt;/li&gt;
-&lt;li&gt;Hantering
-&lt;ul&gt;
-&lt;li&gt;Ändring, Läsning, Användning, Strukturering, &amp;hellip;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Delning&lt;/li&gt;
-&lt;li&gt;Gallring&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/section&gt;
-&lt;hr&gt;
-&lt;section data-shortcode-section&gt;
-&lt;h1 id=&#34;behandling-1&#34;&gt;Behandling&lt;/h1&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;när-behandlar-vi-personuppgifter&#34;&gt;När behandlar vi personuppgifter?&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Nyanmälning&lt;/li&gt;
-&lt;li&gt;Närvaro&lt;/li&gt;
-&lt;li&gt;Anmälning
-&lt;ul&gt;
-&lt;li&gt;övernattning&lt;/li&gt;
-&lt;li&gt;hajk&lt;/li&gt;
-&lt;li&gt;läger&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Utskick&lt;/li&gt;
-&lt;li&gt;&amp;hellip;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;nya-scouter&#34;&gt;Nya scouter&lt;/h3&gt;
-&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
-förälder
-&lt;/span&gt;
-&lt;span class=&#34;fragment &#34; &gt;
--&amp;gt; ledare
-&lt;/span&gt;
-&lt;span class=&#34;fragment &#34; &gt;
--&amp;gt; medlemsregistrerare
-&lt;/span&gt;
-&lt;span class=&#34;fragment &#34; &gt;
--&amp;gt; ScoutNet
-&lt;/span&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;övernattning&#34;&gt;Övernattning&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Anmälan och hälsokort - känsliga personuppgifter!&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Hantera med försiktighet.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Förstör hälsokort efteråt&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Ta in så lite data som möjligt, men tillräckligt för att genomföra aktiviteten.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;vad-får-vi-samla-in&#34;&gt;Vad får vi samla in?&lt;/h3&gt;
-&lt;p&gt;Så lite som möjligt!&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Bara det vi måste.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/section&gt;
-&lt;hr&gt;
-&lt;section data-shortcode-section&gt;
-&lt;h1 id=&#34;överföring&#34;&gt;Överföring&lt;/h1&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;vad-får-vi-föra-över-mellan-avdelningarna&#34;&gt;Vad får vi föra över mellan avdelningarna?&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Namn, personnummer och adress får skickas till mottagande avdelning och medlemsregistreraren.&lt;/li&gt;
-&lt;li&gt;Hälsouppgifter får &lt;strong&gt;INTE&lt;/strong&gt; skickas vidare.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/section&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;sammanfattning&#34;&gt;Sammanfattning&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Hantera inte mer personuppgifter än nödvändigt&lt;/li&gt;
-&lt;li&gt;Scoutnet är &amp;ldquo;GDPR säkert&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;Hälsokort är känslig personuppgift, med högre krav.&lt;/li&gt;
-&lt;li&gt;GDPR gäller även lösa papper.&lt;/li&gt;
-&lt;/ul&gt;
 </description>
     </item>
     
@@ -743,9 +593,10 @@ Hälsokort från övernattning/hajk/läger?
 &lt;section data-shortcode-section&gt;
 &lt;h1 id=&#34;höjdarscoutse&#34;&gt;höjdarscout.se&lt;/h1&gt;
 &lt;hr&gt;
-&lt;figure&gt;
-&lt;p&gt;&lt;a data-fancybox=&#34;&#34; href=&#34;hemsida/gammal_hemsida.png&#34; &gt;
-&lt;img data-src=&#34;hemsida/gammal_hemsida.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;80%&#34; &gt;&lt;/a&gt;&lt;/p&gt;
+&lt;figure &gt;
+&lt;p&gt;&lt;a data-fancybox=&#34;&#34; href=&#34;https://baberg.nu/scouter/scouter/slides/ledarhelg2019gdprmm/hemsida/gammal_hemsida_hud1df7f399002b33f3f7f112dcfc79e94_1088679_2000x2000_fit_lanczos_2.png&#34; &gt;&lt;/p&gt;
+  &lt;img data-src=&#34;https://baberg.nu/scouter/scouter/slides/ledarhelg2019gdprmm/hemsida/gammal_hemsida_hud1df7f399002b33f3f7f112dcfc79e94_1088679_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;80%&#34; height=&#34;1056&#34;&gt;
+&lt;/a&gt;
 &lt;/figure&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;frågor&#34;&gt;Frågor:&lt;/h2&gt;
@@ -759,14 +610,16 @@ Syfte med hemsidan?
 Innehåll?
 &lt;/span&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;figure&gt;
-&lt;p&gt;&lt;a data-fancybox=&#34;&#34; href=&#34;hemsida/ny_gammal_hemsida.png&#34; &gt;
-&lt;img data-src=&#34;hemsida/ny_gammal_hemsida.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;&lt;/a&gt;&lt;/p&gt;
+&lt;figure &gt;
+&lt;p&gt;&lt;a data-fancybox=&#34;&#34; href=&#34;https://baberg.nu/scouter/scouter/slides/ledarhelg2019gdprmm/hemsida/ny_gammal_hemsida_hubef88b9e89c5aa65f70654d786f2c880_1356150_2000x2000_fit_lanczos_2.png&#34; &gt;&lt;/p&gt;
+  &lt;img data-src=&#34;https://baberg.nu/scouter/scouter/slides/ledarhelg2019gdprmm/hemsida/ny_gammal_hemsida_hubef88b9e89c5aa65f70654d786f2c880_1356150_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;100%&#34; height=&#34;1080&#34;&gt;
+&lt;/a&gt;
 &lt;/figure&gt;
 &lt;hr&gt;
-&lt;figure&gt;
-&lt;p&gt;&lt;a data-fancybox=&#34;&#34; href=&#34;hemsida/ny_hemsida.png&#34; &gt;
-&lt;img data-src=&#34;hemsida/ny_hemsida.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;80%&#34; &gt;&lt;/a&gt;&lt;/p&gt;
+&lt;figure &gt;
+&lt;p&gt;&lt;a data-fancybox=&#34;&#34; href=&#34;https://baberg.nu/scouter/scouter/slides/ledarhelg2019gdprmm/hemsida/ny_hemsida_hu815a530d00f17c8093f68693b01a71e8_523180_2000x2000_fit_lanczos_2.png&#34; &gt;&lt;/p&gt;
+  &lt;img data-src=&#34;https://baberg.nu/scouter/scouter/slides/ledarhelg2019gdprmm/hemsida/ny_hemsida_hu815a530d00f17c8093f68693b01a71e8_523180_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;80%&#34; height=&#34;1056&#34;&gt;
+&lt;/a&gt;
 &lt;/figure&gt;
 &lt;hr&gt;
 &lt;ul&gt;
@@ -826,9 +679,10 @@ Aktiviteter (anmälan, skapa)
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;figure&gt;
-&lt;p&gt;&lt;a data-fancybox=&#34;&#34; href=&#34;scoutnet/Scoutnet.PNG&#34; &gt;
-&lt;img data-src=&#34;scoutnet/Scoutnet.PNG&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;&lt;/a&gt;&lt;/p&gt;
+&lt;figure &gt;
+&lt;p&gt;&lt;a data-fancybox=&#34;&#34; href=&#34;https://baberg.nu/scouter/scouter/slides/ledarhelg2019gdprmm/scoutnet/Scoutnet_hu240eb62e3f7abf474e0da6df7f814c45_79731_2000x2000_fit_lanczos_2.PNG&#34; &gt;&lt;/p&gt;
+  &lt;img data-src=&#34;https://baberg.nu/scouter/scouter/slides/ledarhelg2019gdprmm/scoutnet/Scoutnet_hu240eb62e3f7abf474e0da6df7f814c45_79731_2000x2000_fit_lanczos_2.PNG&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;100%&#34; height=&#34;937&#34;&gt;
+&lt;/a&gt;
 &lt;/figure&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;varför-scoutnet&#34;&gt;Varför Scoutnet?&lt;/h2&gt;

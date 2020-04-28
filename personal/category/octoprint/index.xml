@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OctoPrint | Personlig sida</title>
+    <link>https://baberg.nu/personal/category/octoprint/</link>
+      <atom:link href="https://baberg.nu/personal/category/octoprint/index.xml" rel="self" type="application/rss+xml" />
+    <description>OctoPrint</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>sv-se</language><copyright>©Fredrik Båberg 2020</copyright><lastBuildDate>Tue, 28 Apr 2020 08:15:00 +0200</lastBuildDate>
+    <image>
+      <url>https://baberg.nu/personal/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>OctoPrint</title>
+      <link>https://baberg.nu/personal/category/octoprint/</link>
+    </image>
+    
+    <item>
+      <title>OctoPrint i Home Assistant</title>
+      <link>https://baberg.nu/personal/post/2020-04-28-octoprint-ha/</link>
+      <pubDate>Tue, 28 Apr 2020 08:15:00 +0200</pubDate>
+      <guid>https://baberg.nu/personal/post/2020-04-28-octoprint-ha/</guid>
+      <description>&lt;p&gt;Jag har sedan tidigare publicerat ett tillägg till 
+&lt;a href=&#34;https://home-assistant.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Home Assistant&lt;/a&gt; för att kunna köra OctoPrint på samma enhet. Där finns det nu en version som heter &amp;ldquo;Experimental&amp;rdquo;, vilket är ett försök att uppdatera till senaste versionen och lägga till funktioner så som Ingress.&lt;/p&gt;
+&lt;p&gt;Utmaningar har dels varit att få Ingress att fungera över huvud taget, vilket jag tror är löst nu, men även att hålla nere storleken. Publicerad version (&lt;code&gt;0.3.0-alpha4&lt;/code&gt;) kör endast Python3 för att spara utrymme. Jag hade även tänkt byta ut &lt;code&gt;supervisord&lt;/code&gt; mot &lt;code&gt;s6&lt;/code&gt;, men har inte fått det att fungera tillräckligt bra.&lt;/p&gt;
+&lt;p&gt;Tillägget finns på: 
+&lt;a href=&#34;https://github.com/fredrikbaberg/hassio-addons&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
