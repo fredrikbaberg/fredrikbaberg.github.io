@@ -25,5 +25,46 @@
 </description>
     </item>
     
+    <item>
+      <title>VPN server on ReadyNAS</title>
+      <link>https://baberg.nu/personal/en/post/vpn-on-nas/</link>
+      <pubDate>Sun, 11 Feb 2018 17:12:06 +0100</pubDate>
+      <guid>https://baberg.nu/personal/en/post/vpn-on-nas/</guid>
+      <description>&lt;p&gt;After trying to setup VPN on my current router (which doesn&amp;rsquo;t really support that), I saw that it was possible to install a VPN server on my ReadyNAS. In short, this is how I did:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Get the VPN addon, either from the app store on the NAS or from 
+&lt;a href=&#34;http://apps.readynas.com/pages/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this page&lt;/a&gt;. If it&amp;rsquo;s visible in the app store in ReadyNAS UI, just install it, otherwise you need to upload the .deb file to install it.
+&lt;ul&gt;
+&lt;li&gt;At first it was a bit unclear to me how to use this addon. A shared folder will be created, called vpnserver, in which there is a setup file for a management tool. Just install this tool, and you should be able to configure the server.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Since the version is a bit old by now, I wanted to install a newer version. I followed the following 
+&lt;a href=&#34;https://community.netgear.com/t5/Current-NETGEAR-and-Partners/How-can-I-update-SoftEther-VPN-App-to-Newest-Version-ReadyNAS/td-p/1070626&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;instructions&lt;/a&gt;.
+&lt;ul&gt;
+&lt;li&gt;Stop the VPN server using the ReadyNAS web administration tool, since the files will be updated.&lt;/li&gt;
+&lt;li&gt;Enable SSH root access. This probably voids your warranty, but since my NAS is a few years by now I&amp;rsquo;m OK with that. There is an option to enable SSH access in the web UI. Don&amp;rsquo;t forget to set an admin password, to be able to sign in.&lt;/li&gt;
+&lt;li&gt;SSH into NAS with user &lt;code&gt;root&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Install tools for compiling:
+&lt;code&gt;apt-get update &amp;amp;&amp;amp; apt-get install make libc6-dev gcc gdb libtag1-dev uuid-dev&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Download newer version of the VPN server from the softether webpage, to the NAS. From &lt;code&gt;softether&lt;/code&gt; download: VPN Server, Linux, arm-eabi 32-bit in my case (RN104). Not sure for how long the link will work, but just to have examples:
+&lt;code&gt;wget http://www.softether-download.com/files/softether/v4.25-9656-rtm-2018.01.15-tree/Linux/SoftEther_VPN_Server/32bit_-_ARM_EABI/softether-vpnserver-v4.25-9656-rtm-2018.01.15-linux-arm_eabi-32bit.tar.gz&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Unpack the archive into vpnserver folder:
+&lt;code&gt;tar -xvf  softether-vpnserver-v4.25-9656-rtm-2018.01.15-linux-arm_eabi-32bit.tar.gz -C /apps/vpnserver/bin/arm --strip-components=1&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Compile new version:
+&lt;code&gt;cd /apps/vpnserver/bin/arm &amp;amp;&amp;amp; ./.install.sh&lt;/code&gt; Note that the filename is &lt;code&gt;.install.sh&lt;/code&gt;, so it is normally hidden.&lt;/li&gt;
+&lt;li&gt;Copy the newly compiled files one level up. I&amp;rsquo;m not clear on why this is needed, but it says so.
+&lt;code&gt;cp -R /apps/vpnserver/bin/arm/* /apps/vpnserver/bin/&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Update ownership of the bin folder, since it is now (partially) owned by root.
+&lt;code&gt;cd /apps/vpnserver &amp;amp;&amp;amp; chown -R admin:admin bin/&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Remove previously downloaded archive (cleanup).
+&lt;code&gt;rm ~/softether-vpnserver-v4.25-9656-rtm-2018.01.15-linux-arm_eabi-32bit.tar.gz&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Start VPN server again using web UI.&lt;/li&gt;
+&lt;li&gt;As the version was updated, make sure to download and run the latest VPN server manager from the &lt;code&gt;softether&lt;/code&gt; website.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>
