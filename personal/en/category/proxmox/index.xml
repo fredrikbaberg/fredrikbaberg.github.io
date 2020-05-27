@@ -26,16 +26,7 @@
 &lt;p&gt;apk add qemu-guest-agent&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;blockquote&gt;
-&lt;p&gt;mkdir -p /dev/virtio-ports&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;blockquote&gt;
-&lt;p&gt;ln -s /dev/vport1p1 /dev/virtio-ports/org.qemu.guest_agent.0&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/li&gt;
+&lt;li&gt;Modify /etc/init.d/qemu-guest-agent to port /dev/vport1p1&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>

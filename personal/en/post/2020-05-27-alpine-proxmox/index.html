@@ -522,16 +522,7 @@
 <p>apk add qemu-guest-agent</p>
 </blockquote>
 </li>
-<li>
-<blockquote>
-<p>mkdir -p /dev/virtio-ports</p>
-</blockquote>
-</li>
-<li>
-<blockquote>
-<p>ln -s /dev/vport1p1 /dev/virtio-ports/org.qemu.guest_agent.0</p>
-</blockquote>
-</li>
+<li>Modify /etc/init.d/qemu-guest-agent to port /dev/vport1p1</li>
 </ul>
 
     </div>
