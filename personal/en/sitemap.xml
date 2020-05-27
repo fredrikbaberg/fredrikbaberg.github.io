@@ -3,8 +3,18 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://baberg.nu/personal/en/tag/alpine/</loc>
+    <lastmod>2020-05-27T14:54:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://baberg.nu/personal/en/post/2020-05-27-alpine-proxmox/</loc>
+    <lastmod>2020-05-27T14:54:00+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://baberg.nu/personal/en/authors/</loc>
-    <lastmod>2020-04-28T08:15:00+02:00</lastmod>
+    <lastmod>2020-05-27T14:54:00+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="sv"
@@ -19,7 +29,7 @@
   
   <url>
     <loc>https://baberg.nu/personal/en/categories/</loc>
-    <lastmod>2020-04-28T08:15:00+02:00</lastmod>
+    <lastmod>2020-05-27T14:54:00+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="sv"
@@ -30,6 +40,96 @@
                 hreflang="en"
                 href="https://baberg.nu/personal/en/categories/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://baberg.nu/personal/en/author/fredrik-baberg/</loc>
+    <lastmod>2020-05-27T14:54:00+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="sv"
+                href="https://baberg.nu/personal/author/fredrik-baberg/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://baberg.nu/personal/en/author/fredrik-baberg/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://baberg.nu/personal/en/</loc>
+    <lastmod>2020-05-27T14:54:00+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="sv"
+                href="https://baberg.nu/personal/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://baberg.nu/personal/en/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://baberg.nu/personal/en/post/</loc>
+    <lastmod>2020-05-27T14:54:00+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="sv"
+                href="https://baberg.nu/personal/post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://baberg.nu/personal/en/post/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://baberg.nu/personal/en/tag/proxmox/</loc>
+    <lastmod>2020-05-27T14:54:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://baberg.nu/personal/en/category/proxmox/</loc>
+    <lastmod>2020-05-27T14:54:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://baberg.nu/personal/en/tags/</loc>
+    <lastmod>2020-05-27T14:54:00+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="sv"
+                href="https://baberg.nu/personal/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://baberg.nu/personal/en/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://baberg.nu/personal/en/tag/vpn/</loc>
+    <lastmod>2020-05-27T13:42:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://baberg.nu/personal/en/tag/zerotier-one/</loc>
+    <lastmod>2020-05-27T13:42:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://baberg.nu/personal/en/category/zerotier-one/</loc>
+    <lastmod>2020-05-27T13:42:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://baberg.nu/personal/en/post/2020-05-27-zerotier/</loc>
+    <lastmod>2020-05-27T13:42:00+02:00</lastmod>
   </url>
   
   <url>
@@ -44,21 +144,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://baberg.nu/personal/en/category/docker/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://baberg.nu/personal/en/author/fredrik-baberg/</loc>
-    <lastmod>2020-04-28T08:15:00+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="sv"
-                href="https://baberg.nu/personal/author/fredrik-baberg/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://baberg.nu/personal/en/author/fredrik-baberg/"
                 />
   </url>
   
@@ -138,62 +223,12 @@
   </url>
   
   <url>
-    <loc>https://baberg.nu/personal/en/</loc>
-    <lastmod>2020-04-28T08:15:00+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="sv"
-                href="https://baberg.nu/personal/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://baberg.nu/personal/en/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://baberg.nu/personal/en/post/</loc>
-    <lastmod>2020-04-28T08:15:00+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="sv"
-                href="https://baberg.nu/personal/post/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://baberg.nu/personal/en/post/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://baberg.nu/personal/en/tags/</loc>
-    <lastmod>2020-04-28T08:15:00+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="sv"
-                href="https://baberg.nu/personal/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://baberg.nu/personal/en/tags/"
-                />
-  </url>
-  
-  <url>
     <loc>https://baberg.nu/personal/en/tag/readynas/</loc>
     <lastmod>2018-02-11T17:12:06+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://baberg.nu/personal/en/category/readynas/</loc>
-    <lastmod>2018-02-11T17:12:06+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://baberg.nu/personal/en/tag/vpn/</loc>
     <lastmod>2018-02-11T17:12:06+01:00</lastmod>
   </url>
   

@@ -5,12 +5,81 @@
     <link>https://baberg.nu/personal/en/post/</link>
       <atom:link href="https://baberg.nu/personal/en/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Fredrik Båberg 2020</copyright><lastBuildDate>Tue, 28 Apr 2020 08:15:00 +0200</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Fredrik Båberg 2020</copyright><lastBuildDate>Wed, 27 May 2020 14:54:00 +0200</lastBuildDate>
     <image>
       <url>https://baberg.nu/personal/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Posts</title>
       <link>https://baberg.nu/personal/en/post/</link>
     </image>
+    
+    <item>
+      <title>Alpine Linux and Proxmox</title>
+      <link>https://baberg.nu/personal/en/post/2020-05-27-alpine-proxmox/</link>
+      <pubDate>Wed, 27 May 2020 14:54:00 +0200</pubDate>
+      <guid>https://baberg.nu/personal/en/post/2020-05-27-alpine-proxmox/</guid>
+      <description>&lt;p&gt;I always forget how to make Alpine Linux appear properly in Proxmox, with qemu guest agent. So here the steps I use are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Enable qemu agent in Proxmox&lt;/li&gt;
+&lt;li&gt;In Alpine linux, run the following commands:&lt;/li&gt;
+&lt;li&gt;
+&lt;blockquote&gt;
+&lt;p&gt;apk add qemu-guest-agent&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;blockquote&gt;
+&lt;p&gt;mkdir -p /dev/virtio-ports&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;blockquote&gt;
+&lt;p&gt;ln -s /dev/vport1p1 /dev/virtio-ports/org.qemu.guest_agent.0&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ZeroTier-One</title>
+      <link>https://baberg.nu/personal/en/post/2020-05-27-zerotier/</link>
+      <pubDate>Wed, 27 May 2020 13:42:00 +0200</pubDate>
+      <guid>https://baberg.nu/personal/en/post/2020-05-27-zerotier/</guid>
+      <description>&lt;p&gt;As an alternative to running a VPN connection, I&amp;rsquo;m now trying ZeroTier-One.&lt;/p&gt;
+&lt;p&gt;This is how I made it work:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Add community repository (uncomment line in &lt;code&gt;/etc/apk/repositories&lt;/code&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;apk add zerotier-one
+apk add iptables
+/etc/init.d/zerotier-one start
+zerotier-cli join #network-id
+add &lt;code&gt;net.ipv4.ip_forward = 1&lt;/code&gt; to &lt;code&gt;/etc/sysctl.conf&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;accept join in 
+&lt;a href=&#34;my.zerotier.com&#34;&gt;my.zerotier.com&lt;/a&gt; portal&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The create the following script, &lt;code&gt;ZerotierRouting.start&lt;/code&gt; 
+&lt;a href=&#34;https://www.reddit.com/r/zerotier/comments/9714a2/easy_way_of_bridging_lan_for_remote_access/?sort=old&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.reddit.com/r/zerotier/comments/9714a2/easy_way_of_bridging_lan_for_remote_access/?sort=old&lt;/a&gt;, remember to replace network interface names with correct names:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;#!/bin/sh
+/etc/init.d/zerotier-one start
+iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+iptables -A FORWARD -i eth0 -o ztXXXXXXXX -m state &amp;ndash;state RELATED,ESTABLISHED -j ACCEPT
+iptables -A FORWARD -i ztXXXXXXXX -o eth0 -j ACCEPT&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Enable local.d scripts at boot time and add the script (&lt;a href=&#34;https://unix.stackexchange.com/questions/442020/alpine-linux-run-a-startup-script-to-change-the-etc-issue):&#34;&gt;https://unix.stackexchange.com/questions/442020/alpine-linux-run-a-startup-script-to-change-the-etc-issue):&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;rc-update add local default
+mv ZerotierRouting.start /etc/local.d/ZerotierRouting.start
+chmod +x /etc/local.d/ZerotierRouting.start&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Finally, go to 
+&lt;a href=&#34;my.zerotier.com&#34;&gt;my.zerotier.com&lt;/a&gt; portal and add a route with destination &lt;code&gt;192.168.1.0/24&lt;/code&gt; &lt;code&gt;(via)&lt;/code&gt; &lt;code&gt;10.1.2.3&lt;/code&gt; (set destination to desired network, via IP to your Alpine Linux/Zerotier IP address).&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>OctoPrint in Home Assistant</title>
