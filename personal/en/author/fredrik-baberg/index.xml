@@ -17,16 +17,22 @@
       <link>https://baberg.nu/personal/en/post/2020-05-27-alpine-proxmox/</link>
       <pubDate>Wed, 27 May 2020 14:54:00 +0200</pubDate>
       <guid>https://baberg.nu/personal/en/post/2020-05-27-alpine-proxmox/</guid>
-      <description>&lt;p&gt;I always forget how to make Alpine Linux appear properly in Proxmox, with qemu guest agent. So here the steps I use are:&lt;/p&gt;
+      <description>&lt;p&gt;I always forget how to make Alpine Linux appear properly in Proxmox, with qemu guest agent. So here are the steps I use are:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Enable qemu agent in Proxmox&lt;/li&gt;
-&lt;li&gt;In Alpine linux, run the following commands:&lt;/li&gt;
+&lt;li&gt;run &lt;code&gt;rc-update add local default&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;In Alpine linux, create a file called &lt;code&gt;/etc/local.d/Qemu.start&lt;/code&gt; with content:&lt;/li&gt;
 &lt;li&gt;
 &lt;blockquote&gt;
-&lt;p&gt;apk add qemu-guest-agent&lt;/p&gt;
+&lt;p&gt;#!/bin/sh&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;/li&gt;
-&lt;li&gt;Modify /etc/init.d/qemu-guest-agent to port /dev/vport1p1&lt;/li&gt;
+&lt;li&gt;
+&lt;blockquote&gt;
+&lt;p&gt;qemu-ga -d -p /dev/vport1p1&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;Make file executable&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
