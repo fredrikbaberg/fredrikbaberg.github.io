@@ -17,7 +17,7 @@
       <link>https://baberg.nu/personal/en/post/2020-05-27-alpine-proxmox/</link>
       <pubDate>Wed, 27 May 2020 14:54:00 +0200</pubDate>
       <guid>https://baberg.nu/personal/en/post/2020-05-27-alpine-proxmox/</guid>
-      <description>&lt;p&gt;I always forget how to make Alpine Linux appear properly in Proxmox, with qemu guest agent. So here are the steps I use are:&lt;/p&gt;
+      <description>&lt;p&gt;Since I don´t reinstall Alpine Linux in Proxmox that often, I sometimes loose track of the command to make it appear correctly with qemu guest agent. These are the steps I use:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Enable qemu agent in Proxmox&lt;/li&gt;
 &lt;li&gt;run &lt;code&gt;rc-update add local default&lt;/code&gt;&lt;/li&gt;
@@ -33,6 +33,12 @@
 &lt;/blockquote&gt;
 &lt;/li&gt;
 &lt;li&gt;Make file executable&lt;/li&gt;
+&lt;li&gt;Install qemu guest agent:&lt;/li&gt;
+&lt;li&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;apk add qemu-guest-agent&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
