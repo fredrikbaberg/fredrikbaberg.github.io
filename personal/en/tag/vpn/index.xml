@@ -14,9 +14,9 @@
     
     <item>
       <title>ZeroTier-One</title>
-      <link>https://baberg.nu/personal/en/post/2020-05-27-zerotier/</link>
+      <link>https://baberg.nu/personal/en/post/zerotier/</link>
       <pubDate>Wed, 27 May 2020 13:42:00 +0200</pubDate>
-      <guid>https://baberg.nu/personal/en/post/2020-05-27-zerotier/</guid>
+      <guid>https://baberg.nu/personal/en/post/zerotier/</guid>
       <description>&lt;p&gt;As an alternative to running a VPN connection, I&amp;rsquo;m now trying ZeroTier-One.&lt;/p&gt;
 &lt;p&gt;This is how I made it work:&lt;/p&gt;
 &lt;ul&gt;

@@ -14,9 +14,9 @@
     
     <item>
       <title>Alpine Linux and Proxmox</title>
-      <link>https://baberg.nu/personal/en/post/2020-05-27-alpine-proxmox/</link>
+      <link>https://baberg.nu/personal/en/post/alpine-proxmox/</link>
       <pubDate>Wed, 27 May 2020 14:54:00 +0200</pubDate>
-      <guid>https://baberg.nu/personal/en/post/2020-05-27-alpine-proxmox/</guid>
+      <guid>https://baberg.nu/personal/en/post/alpine-proxmox/</guid>
       <description>&lt;p&gt;Since I sometimes setup new Alpine Linux VMs in Proxmox, I thought I would document the base setup I use. In this case install of Qemu Guest Agent and Docker.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Create VM with Alpine Linux, remember to enable &lt;code&gt;qemu-agent&lt;/code&gt;.&lt;/li&gt;
