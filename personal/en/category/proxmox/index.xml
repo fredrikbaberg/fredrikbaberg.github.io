@@ -17,27 +17,32 @@
       <link>https://baberg.nu/personal/en/post/2020-05-27-alpine-proxmox/</link>
       <pubDate>Wed, 27 May 2020 14:54:00 +0200</pubDate>
       <guid>https://baberg.nu/personal/en/post/2020-05-27-alpine-proxmox/</guid>
-      <description>&lt;p&gt;Since I don´t reinstall Alpine Linux in Proxmox that often, I sometimes loose track of the command to make it appear correctly with qemu guest agent. These are the steps I use:&lt;/p&gt;
+      <description>&lt;p&gt;Since I sometimes setup new Alpine Linux VMs in Proxmox, I thought I would document the base setup I use. In this case install of Qemu Guest Agent and Docker.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Enable qemu agent in Proxmox&lt;/li&gt;
+&lt;li&gt;Create VM with Alpine Linux, remember to enable &lt;code&gt;qemu-agent&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;For Qemu Guest Agent:
+&lt;ul&gt;
+&lt;li&gt;Install Qemu Guest Agent through &lt;code&gt;apk add --no-cache qemu-guest-agent&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;run &lt;code&gt;rc-update add local default&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;In Alpine linux, create a file called &lt;code&gt;/etc/local.d/Qemu.start&lt;/code&gt; with content:&lt;/li&gt;
+&lt;li&gt;create file &lt;code&gt;/etc/local.d/Qemu.start&lt;/code&gt; with content (make sure to check port, it could be something else):
+&lt;ul&gt;
 &lt;li&gt;
 &lt;blockquote&gt;
-&lt;p&gt;#!/bin/sh&lt;/p&gt;
+&lt;p&gt;#!/bin/sh
+qemu-ga -d -p /dev/vport1p1&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;blockquote&gt;
-&lt;p&gt;qemu-ga -d -p /dev/vport1p1&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;Make file executable&lt;/li&gt;
-&lt;li&gt;Install qemu guest agent:&lt;/li&gt;
-&lt;li&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;code&gt;apk add qemu-guest-agent&lt;/code&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;li&gt;Make file executable &lt;code&gt;chmod +x /etc/local.d/Qemu.start&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;For Docker
+&lt;ul&gt;
+&lt;li&gt;Uncomment &lt;code&gt;community&lt;/code&gt; from &lt;code&gt;/etc/apk/repositories&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Install through &lt;code&gt;apk add --no-cache docker docker-compose&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Launch daemon at boot through &lt;code&gt;rc-update add docker boot&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 </description>
