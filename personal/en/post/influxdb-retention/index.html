@@ -27,12 +27,10 @@
   
     
   
-  <meta name="description" content="">
+  <meta name="description" content="Archive data in InfluxDB">
 
   
-  <link rel="alternate" hreflang="sv" href="https://baberg.nu/personal/">
-  
-  <link rel="alternate" hreflang="en-us" href="https://baberg.nu/personal/en/">
+  <link rel="alternate" hreflang="en-us" href="https://baberg.nu/personal/en/post/influxdb-retention/">
 
   
 
@@ -212,18 +210,14 @@
 
   
   
-  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-  
 
-  
-  <link rel="alternate" href="/personal/en/index.xml" type="application/rss+xml" title="Personal page">
   
 
   <link rel="manifest" href="/personal/en/index.webmanifest">
   <link rel="icon" type="image/png" href="/personal/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/personal/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="https://baberg.nu/personal/en/">
+  <link rel="canonical" href="https://baberg.nu/personal/en/post/influxdb-retention/">
 
   
   
@@ -239,29 +233,63 @@
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="Personal page">
-  <meta property="og:url" content="https://baberg.nu/personal/en/">
-  <meta property="og:title" content="Personal page">
-  <meta property="og:description" content=""><meta property="og:image" content="https://baberg.nu/personal/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
+  <meta property="og:url" content="https://baberg.nu/personal/en/post/influxdb-retention/">
+  <meta property="og:title" content="InfluxDB and retention | Personal page">
+  <meta property="og:description" content="Archive data in InfluxDB"><meta property="og:image" content="https://baberg.nu/personal/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
   <meta property="twitter:image" content="https://baberg.nu/personal/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2020-08-11T20:12:00&#43;02:00">
+    
+      <meta property="article:published_time" content="2020-08-11T20:12:00&#43;02:00">
+    
+    <meta property="article:modified_time" content="2020-08-11T20:12:00&#43;02:00">
   
 
   
+
+
+    
+
+
+
+
+
+
+  
+
+
+
 
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "WebSite",
-  "potentialAction": {
-    "@type": "SearchAction",
-    "target": "https://baberg.nu/personal?q={search_term_string}",
-    "query-input": "required name=search_term_string"
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://baberg.nu/personal/en/post/influxdb-retention/"
   },
-  "url": "https://baberg.nu/personal"
+  "headline": "InfluxDB and retention",
+  
+  "datePublished": "2020-08-11T20:12:00+02:00",
+  "dateModified": "2020-08-11T20:12:00+02:00",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Fredrik Baberg"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Personal page",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://baberg.nu/personal/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
+    }
+  },
+  "description": "Archive data in InfluxDB"
 }
 </script>
 
+  
 
   
 
@@ -275,11 +303,11 @@
 
 
 
-  <title>Personal page</title>
+  <title>InfluxDB and retention | Personal page</title>
 
 </head>
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#navbar-main" >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
 
   <aside class="search-results" id="search">
   <div class="container">
@@ -379,22 +407,6 @@
       
 
       
-      <li class="nav-item dropdown i18n-dropdown">
-        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
-          <i class="fas fa-globe mr-1" aria-hidden="true"></i><span class="d-none d-lg-inline">English</span>
-        </a>
-        <div class="dropdown-menu">
-          <div class="dropdown-item dropdown-item-active">
-            <span>English</span>
-          </div>
-          
-          <a class="dropdown-item" href="https://baberg.nu/personal/" data-target="/personal/">
-            <span>Svenska</span>
-          </a>
-          
-        </div>
-      </li>
-      
 
     </ul>
 
@@ -402,72 +414,7 @@
 </nav>
 
 
-  
-
-
-
-
-
-
-
-
-
-
-
-<span class="js-widget-page d-none"></span>
-
-
-
-
-
-  
-  
-  
-  
-
-
-
-
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  <section id="posts" class="home-section wg-pages   "  >
-    <div class="container">
-      
-
-
-
-
-
-
-
+  <article class="article">
 
   
 
@@ -482,73 +429,20 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
   
 
-
-
-
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>InfluxDB and retention</h1>
 
   
+  <p class="page-subtitle">Archive data</p>
+  
 
-
-<div class="row">
-  <div class="col-12 col-lg-4 section-heading">
-    <h1>Recently posted</h1>
+  
     
-  </div>
-  <div class="col-12 col-lg-8">
-
-    
-
-    
-      
-        
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <h3 class="article-title mb-0 mt-0">
-      <a href="/personal/en/post/influxdb-retention/" >InfluxDB and retention</a>
-    </h3>
-
-    
-    <div class="article-style">
-      Archive data in InfluxDB
-    </div>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-        
 
 
 <div class="article-metadata">
@@ -598,22 +492,9 @@
 
 </div>
 
-      
-    </div>
-
     
 
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
-</div>
 
-      
-    
-      
-        
 
 
 
@@ -627,293 +508,191 @@
 
 
   
+</div>
 
 
-<div class="media stream-item">
-  <div class="media-body">
 
-    <h3 class="article-title mb-0 mt-0">
-      <a href="/personal/en/post/alpine-proxmox/" >Alpine Linux and Proxmox</a>
-    </h3>
+  <div class="article-container">
 
-    
     <div class="article-style">
-      Alpine Linux and Proxmox
-    </div>
-    
+      <p>I recently encountered an issue where my backup of Home Assistant took to much space compared to what I had available. One reason could be that I stored all data in InfluxDB, without any retention policy. After purging all the data from InfluxDB the backup size went from 4GB to 500MB, and backups were faster.</p>
+<p>I found the following thread with an example of retention policies which I based my setup on: 
+<a href="https://monitoring-portal.org/t/retention-policies-and-continuous-queries-made-simple/1792" target="_blank" rel="noopener">https://monitoring-portal.org/t/retention-policies-and-continuous-queries-made-simple/1792</a>.</p>
+<p>In the new setup there is a separate database, <code>archive</code> used for long-term storage, while the raw data is purged after 7 days. <code>archive</code> has three levels with different granularity:</p>
+<ul>
+<li>Sampled with mean of five minutes, for shorter timespan.</li>
+<li>Sampled with mean of 30 minutes, for medium timespan.</li>
+<li>Sampled with mean of 1 hour, for longer time.</li>
+</ul>
+<h3 id="setup-in-influxdb">Setup in InfluxDB</h3>
+<p>The following commands are entered under <em>Explore</em> in Chronograf, which is the graphical user interface I get with InfluxDB as Home Assistant addon.</p>
+<h4 id="first-level">First level</h4>
+<p>First level is for incoming data, which is sampled to five minutes using mean value.</p>
+<blockquote>
+<p>CREATE DATABASE &ldquo;archive&rdquo; WITH DURATION 1d1h</p>
+</blockquote>
+<p>For each domain and instance of Home Assistant I use one continuous query.
+My two instances are called <em>homeassistant</em> and <em>homeassistantpissd</em> (Home Assistant running on a Raspberry Pi with an SSD).</p>
+<pre><code>CREATE CONTINUOUS QUERY &quot;cq_5m_homeassistantpissd_sensor&quot; ON &quot;archive&quot; BEGIN
+    SELECT mean(&quot;value&quot;) AS &quot;value&quot;, mean(&quot;battery_level&quot;) AS battery_level
+    INTO &quot;archive&quot;.&quot;autogen&quot;.&quot;sensor&quot;
+    FROM &quot;homeassistantpissd&quot;.&quot;autogen&quot;.&quot;sensor&quot;
+    GROUP BY time(5m),*
+END
+</code></pre>
+<pre><code>CREATE CONTINUOUS QUERY &quot;cq_5m_homeassistant_binary_sensor&quot; ON &quot;archive&quot; BEGIN
+    SELECT mean(&quot;value&quot;) AS &quot;value&quot;, mean(&quot;voltage&quot;) AS &quot;voltage&quot;, mean(&quot;temperature&quot;) AS &quot;temperature&quot;, mean(&quot;on&quot;) AS &quot;on&quot;, mean(&quot;battery_level&quot;) AS &quot;battery_level&quot;
+    INTO &quot;archive&quot;.&quot;autogen&quot;.&quot;binary_sensor&quot;
+    FROM &quot;homeassistant&quot;.&quot;autogen&quot;.&quot;binary_sensor&quot;
+    GROUP BY time(5m),*
+END
+</code></pre>
+<pre><code>CREATE CONTINUOUS QUERY &quot;cq_5m_homeassistant_fan&quot; ON &quot;archive&quot; BEGIN
+    SELECT mean(&quot;value&quot;) AS &quot;value&quot;, mean(&quot;aqi&quot;) AS &quot;aqi&quot;, mean(&quot;filter_hours_used&quot;) AS &quot;filter_hours_used&quot;, mean(&quot;filter_life_remaining&quot;) AS &quot;filter_life_remaining&quot;, mean(&quot;humidity&quot;) AS &quot;humidity&quot;, mean(&quot;illuminance&quot;) AS &quot;illuminance&quot;, mean(&quot;motor_speed&quot;) AS &quot;motor_speed&quot;, mean(&quot;temperature&quot;) AS &quot;temperature&quot;
+    INTO &quot;archive&quot;.&quot;autogen&quot;.&quot;fan&quot;
+    FROM &quot;homeassistant&quot;.&quot;autogen&quot;.&quot;fan&quot;
+    GROUP BY time(5m),*
+END
+</code></pre>
+<pre><code>CREATE CONTINUOUS QUERY &quot;cq_5m_homeassistant_sensor&quot; ON &quot;archive&quot; BEGIN
+    SELECT mean(&quot;value&quot;) AS &quot;value&quot;, mean(&quot;battery_level&quot;) AS battery_level, mean(&quot;temperature&quot;) AS temperature
+    INTO &quot;archive&quot;.&quot;autogen&quot;.&quot;sensor&quot;
+    FROM &quot;homeassistant&quot;.&quot;autogen&quot;.&quot;sensor&quot;
+    GROUP BY time(5m),*
+END
+</code></pre>
+<pre><code>CREATE CONTINUOUS QUERY &quot;cq_5m_homeassistant_weather&quot; ON &quot;archive&quot; BEGIN
+    SELECT mean(&quot;humidity&quot;) AS &quot;humidity&quot;, mean(&quot;pressure&quot;) AS &quot;pressure&quot;, last(&quot;state&quot;) AS &quot;state&quot;, mean(&quot;temperature&quot;) AS &quot;temperature&quot;, mean(&quot;wind_bearing&quot;) AS &quot;wind_bearing&quot;, mean(&quot;wind_speed&quot;) AS &quot;wind_speed&quot;
+    INTO &quot;archive&quot;.&quot;autogen&quot;.&quot;weather&quot;
+    FROM &quot;homeassistant&quot;.&quot;autogen&quot;.&quot;weather&quot;
+    GROUP BY time(5m),*
+END
+</code></pre>
+<h4 id="second-level">Second level</h4>
+<p>The second level keeps data for one week, sampled to 30 minutes. For simplicity I use <code>mean(*)</code> instead of writing each entry, this has the disadvantage that data will be prefixed by <code>mean</code>, e.g. <code>value</code> will be called <code>mean_value</code>.</p>
+<pre><code>CREATE RETENTION POLICY &quot;rp_1_week&quot; ON &quot;archive&quot; DURATION 1w1d REPLICATION 1
+CREATE CONTINUOUS QUERY &quot;cq_into_1_week_sensor&quot; ON &quot;archive&quot; BEGIN
+    SELECT mean(*)
+    INTO &quot;rp_1_week&quot;.&quot;sensor&quot;
+    FROM &quot;autogen&quot;.&quot;sensor&quot;
+    GROUP BY time(30m),*
+END
+</code></pre>
+<h4 id="third-level">Third level</h4>
+<p>The third and final level is kept infinitely, where the mean value of 1 hour is used. Data here will be called <code>mean_mean_value</code> due to the wildcard.</p>
+<pre><code>CREATE RETENTION POLICY &quot;rp_infinite&quot; ON &quot;archive&quot; DURATION INF REPLICATION 1
+CREATE CONTINUOUS QUERY &quot;cq_into_infinity_sensor&quot; ON &quot;archive&quot; BEGIN
+    SELECT mean(*)
+    INTO &quot;archive&quot;.&quot;rp_infinite&quot;.&quot;sensor&quot;
+    FROM &quot;archive&quot;.&quot;rp_1_week&quot;.&quot;sensor&quot;
+    GROUP BY time(1h),*
+END
+</code></pre>
+<h3 id="improvements">Improvements</h3>
+<p>I&rsquo;m currently more or less running the above setup, but with all duration for retention policy on <code>archive</code> set to <code>INF</code>. Raw data will still be deleted after 7 days. I&rsquo;ll let this run for a week or so before I decide if I need to make any modifications.</p>
 
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-        
-
-
-<div class="article-metadata">
-
-  
-  
-  
-  
-  <div>
-    
-
-  
-  <span><a href="/personal/en/author/fredrik-baberg/">Fredrik Baberg</a></span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
-      
-          Last updated on
-      
-    
-    Jun 26, 2020
-  </span>
-  
-
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="article-reading-time">
-    1 min read
-  </span>
-  
-
-  
-  
-  
-
-  
-  
-  <span class="middot-divider"></span>
-  <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i><a href="/personal/en/category/proxmox/">Proxmox</a></span>
-  
-
-</div>
-
-      
-    </div>
-
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
-</div>
-
-      
-    
-      
-        
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <h3 class="article-title mb-0 mt-0">
-      <a href="/personal/en/post/zerotier/" >ZeroTier-One</a>
-    </h3>
-
-    
-    <div class="article-style">
-      ZeroTier One as VPN Bridge
-    </div>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-        
-
-
-<div class="article-metadata">
-
-  
-  
-  
-  
-  <div>
-    
-
-  
-  <span><a href="/personal/en/author/fredrik-baberg/">Fredrik Baberg</a></span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
-      
-    
-    May 27, 2020
-  </span>
-  
-
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="article-reading-time">
-    1 min read
-  </span>
-  
-
-  
-  
-  
-
-  
-  
-  <span class="middot-divider"></span>
-  <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i><a href="/personal/en/category/zerotier-one/">ZeroTier-One</a></span>
-  
-
-</div>
-
-      
     </div>
 
     
 
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/personal/en/tag/home-assistant/">Home Assistant</a>
+  
+  <a class="badge badge-light" href="/personal/en/tag/influxdb/">InfluxDB</a>
+  
 </div>
 
-      
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
     
       
-        
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <h3 class="article-title mb-0 mt-0">
-      <a href="/personal/en/post/octoprint-ha/" >OctoPrint in Home Assistant</a>
-    </h3>
-
-    
-    <div class="article-style">
-      Addon for OctoPrint in Home Assistant
-    </div>
-    
-
-    <div class="stream-meta article-metadata">
-
       
-
       
         
-
-
-<div class="article-metadata">
-
-  
-  
-  
-  
-  <div>
-    
-
-  
-  <span><a href="/personal/en/author/fredrik-baberg/">Fredrik Baberg</a></span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://baberg.nu/personal/en/post/influxdb-retention/&amp;text=InfluxDB%20and%20retention" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
     
       
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://baberg.nu/personal/en/post/influxdb-retention/&amp;t=InfluxDB%20and%20retention" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
     
-    Apr 28, 2020
-  </span>
-  
-
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="article-reading-time">
-    1 min read
-  </span>
-  
-
-  
-  
-  
-
-  
-  
-  <span class="middot-divider"></span>
-  <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i><a href="/personal/en/category/homeassistant/">HomeAssistant</a>, <a href="/personal/en/category/docker/">Docker</a>, <a href="/personal/en/category/octoprint/">OctoPrint</a></span>
-  
-
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=InfluxDB%20and%20retention&amp;body=https://baberg.nu/personal/en/post/influxdb-retention/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://baberg.nu/personal/en/post/influxdb-retention/&amp;title=InfluxDB%20and%20retention" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=InfluxDB%20and%20retention%20https://baberg.nu/personal/en/post/influxdb-retention/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://baberg.nu/personal/en/post/influxdb-retention/&amp;title=InfluxDB%20and%20retention" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
 </div>
 
-      
-    </div>
-
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
-</div>
-
-      
-    
-      
-        
-
 
 
 
@@ -926,223 +705,58 @@
 
 
   
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <h3 class="article-title mb-0 mt-0">
-      <a href="/personal/en/post/vpn-on-nas/" >VPN server on ReadyNAS</a>
-    </h3>
-
     
-    <div class="article-style">
-      After trying to setup VPN on my current router (which doesn&rsquo;t really support that), I saw that it was possible to install a VPN server on my ReadyNAS. In short, this is how I did:
-    </div>
     
 
-    <div class="stream-meta article-metadata">
 
+
+
+
+  
+    
+    
+    
       
-
+    
+    
+    
+    <div class="media author-card content-widget-hr">
       
         
-
-
-<div class="article-metadata">
-
-  
-  
-  
-  
-  <div>
-    
-
-  
-  <span><a href="/personal/en/author/fredrik-baberg/">Fredrik Baberg</a></span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
-      
-    
-    Feb 11, 2018
-  </span>
-  
-
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="article-reading-time">
-    2 min read
-  </span>
-  
-
-  
-  
-  
-
-  
-  
-  <span class="middot-divider"></span>
-  <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i><a href="/personal/en/category/readynas/">ReadyNAS</a></span>
-  
-
-</div>
-
-      
-    </div>
-
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
-</div>
-
-      
-    
-
-    
-
-  </div>
-</div>
-
-    </div>
-  </section>
-
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  <section id="tags" class="home-section wg-tag-cloud   "  >
-    <div class="container">
+        <img class="avatar mr-3 avatar-circle" src="/personal/en/author/fredrik-baberg/avatar_hu52a603635ecebd45650b162dadabb4e5_12861_270x270_fill_q90_lanczos_center.jpg" alt="Fredrik Baberg">
       
 
-
-
-
-
-
-
-
-
-
+      <div class="media-body">
+        <h5 class="card-title"><a href="https://baberg.nu/personal">Fredrik Baberg</a></h5>
+        
+        
+        <ul class="network-icon" aria-hidden="true">
   
+</ul>
 
-
-
-
-
-
-<div class="row">
-  <div class="col-12 col-lg-4 section-heading">
-    <h1>Popular topics</h1>
-    
-  </div>
-  <div class="col-12 col-lg-8">
-    
-
-    
-
-      
-      
-      
-      
-      
-      
-
-      <div class="tag-cloud">
-        
-          
-          
-          
-          <a href="/personal/en/tag/alpine/" style="font-size:0.7rem">Alpine</a>
-        
-          
-          
-          
-          <a href="/personal/en/tag/home-assistant/" style="font-size:0.7rem">Home Assistant</a>
-        
-          
-          
-          
-          <a href="/personal/en/tag/homeassistant/" style="font-size:0.7rem">HomeAssistant</a>
-        
-          
-          
-          
-          <a href="/personal/en/tag/influxdb/" style="font-size:0.7rem">InfluxDB</a>
-        
-          
-          
-          
-          <a href="/personal/en/tag/octoprint/" style="font-size:0.7rem">OctoPrint</a>
-        
-          
-          
-          
-          <a href="/personal/en/tag/proxmox/" style="font-size:0.7rem">Proxmox</a>
-        
-          
-          
-          
-          <a href="/personal/en/tag/readynas/" style="font-size:0.7rem">ReadyNAS</a>
-        
-          
-          
-          
-          <a href="/personal/en/tag/vpn/" style="font-size:1.5202086796428946rem">VPN</a>
-        
-          
-          
-          
-          <a href="/personal/en/tag/zerotier-one/" style="font-size:0.7rem">ZeroTier-One</a>
-        
       </div>
-    
+    </div>
+  
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
 
   </div>
-</div>
-
-    </div>
-  </section>
-
-
+</article>
 
       
 
@@ -1227,18 +841,6 @@
     
 
     
-    
-    <script>
-      if (window.netlifyIdentity) {
-        window.netlifyIdentity.on("init", user => {
-          if (!user) {
-            window.netlifyIdentity.on("login", () => {
-              document.location.href = "/admin/";
-            });
-          }
-        });
-      }
-    </script>
     
 
     

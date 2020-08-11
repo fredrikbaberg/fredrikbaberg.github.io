@@ -5,12 +5,95 @@
     <link>https://baberg.nu/personal/en/post/</link>
       <atom:link href="https://baberg.nu/personal/en/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Fredrik Båberg 2020</copyright><lastBuildDate>Wed, 27 May 2020 14:54:00 +0200</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Fredrik Båberg 2020</copyright><lastBuildDate>Tue, 11 Aug 2020 20:12:00 +0200</lastBuildDate>
     <image>
       <url>https://baberg.nu/personal/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Posts</title>
       <link>https://baberg.nu/personal/en/post/</link>
     </image>
+    
+    <item>
+      <title>InfluxDB and retention</title>
+      <link>https://baberg.nu/personal/en/post/influxdb-retention/</link>
+      <pubDate>Tue, 11 Aug 2020 20:12:00 +0200</pubDate>
+      <guid>https://baberg.nu/personal/en/post/influxdb-retention/</guid>
+      <description>&lt;p&gt;I recently encountered an issue where my backup of Home Assistant took to much space compared to what I had available. One reason could be that I stored all data in InfluxDB, without any retention policy. After purging all the data from InfluxDB the backup size went from 4GB to 500MB, and backups were faster.&lt;/p&gt;
+&lt;p&gt;I found the following thread with an example of retention policies which I based my setup on: 
+&lt;a href=&#34;https://monitoring-portal.org/t/retention-policies-and-continuous-queries-made-simple/1792&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://monitoring-portal.org/t/retention-policies-and-continuous-queries-made-simple/1792&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;In the new setup there is a separate database, &lt;code&gt;archive&lt;/code&gt; used for long-term storage, while the raw data is purged after 7 days. &lt;code&gt;archive&lt;/code&gt; has three levels with different granularity:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Sampled with mean of five minutes, for shorter timespan.&lt;/li&gt;
+&lt;li&gt;Sampled with mean of 30 minutes, for medium timespan.&lt;/li&gt;
+&lt;li&gt;Sampled with mean of 1 hour, for longer time.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;setup-in-influxdb&#34;&gt;Setup in InfluxDB&lt;/h3&gt;
+&lt;p&gt;The following commands are entered under &lt;em&gt;Explore&lt;/em&gt; in Chronograf, which is the graphical user interface I get with InfluxDB as Home Assistant addon.&lt;/p&gt;
+&lt;h4 id=&#34;first-level&#34;&gt;First level&lt;/h4&gt;
+&lt;p&gt;First level is for incoming data, which is sampled to five minutes using mean value.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;CREATE DATABASE &amp;ldquo;archive&amp;rdquo; WITH DURATION 1d1h&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;For each domain and instance of Home Assistant I use one continuous query.
+My two instances are called &lt;em&gt;homeassistant&lt;/em&gt; and &lt;em&gt;homeassistantpissd&lt;/em&gt; (Home Assistant running on a Raspberry Pi with an SSD).&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;CREATE CONTINUOUS QUERY &amp;quot;cq_5m_homeassistantpissd_sensor&amp;quot; ON &amp;quot;archive&amp;quot; BEGIN
+    SELECT mean(&amp;quot;value&amp;quot;) AS &amp;quot;value&amp;quot;, mean(&amp;quot;battery_level&amp;quot;) AS battery_level
+    INTO &amp;quot;archive&amp;quot;.&amp;quot;autogen&amp;quot;.&amp;quot;sensor&amp;quot;
+    FROM &amp;quot;homeassistantpissd&amp;quot;.&amp;quot;autogen&amp;quot;.&amp;quot;sensor&amp;quot;
+    GROUP BY time(5m),*
+END
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;CREATE CONTINUOUS QUERY &amp;quot;cq_5m_homeassistant_binary_sensor&amp;quot; ON &amp;quot;archive&amp;quot; BEGIN
+    SELECT mean(&amp;quot;value&amp;quot;) AS &amp;quot;value&amp;quot;, mean(&amp;quot;voltage&amp;quot;) AS &amp;quot;voltage&amp;quot;, mean(&amp;quot;temperature&amp;quot;) AS &amp;quot;temperature&amp;quot;, mean(&amp;quot;on&amp;quot;) AS &amp;quot;on&amp;quot;, mean(&amp;quot;battery_level&amp;quot;) AS &amp;quot;battery_level&amp;quot;
+    INTO &amp;quot;archive&amp;quot;.&amp;quot;autogen&amp;quot;.&amp;quot;binary_sensor&amp;quot;
+    FROM &amp;quot;homeassistant&amp;quot;.&amp;quot;autogen&amp;quot;.&amp;quot;binary_sensor&amp;quot;
+    GROUP BY time(5m),*
+END
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;CREATE CONTINUOUS QUERY &amp;quot;cq_5m_homeassistant_fan&amp;quot; ON &amp;quot;archive&amp;quot; BEGIN
+    SELECT mean(&amp;quot;value&amp;quot;) AS &amp;quot;value&amp;quot;, mean(&amp;quot;aqi&amp;quot;) AS &amp;quot;aqi&amp;quot;, mean(&amp;quot;filter_hours_used&amp;quot;) AS &amp;quot;filter_hours_used&amp;quot;, mean(&amp;quot;filter_life_remaining&amp;quot;) AS &amp;quot;filter_life_remaining&amp;quot;, mean(&amp;quot;humidity&amp;quot;) AS &amp;quot;humidity&amp;quot;, mean(&amp;quot;illuminance&amp;quot;) AS &amp;quot;illuminance&amp;quot;, mean(&amp;quot;motor_speed&amp;quot;) AS &amp;quot;motor_speed&amp;quot;, mean(&amp;quot;temperature&amp;quot;) AS &amp;quot;temperature&amp;quot;
+    INTO &amp;quot;archive&amp;quot;.&amp;quot;autogen&amp;quot;.&amp;quot;fan&amp;quot;
+    FROM &amp;quot;homeassistant&amp;quot;.&amp;quot;autogen&amp;quot;.&amp;quot;fan&amp;quot;
+    GROUP BY time(5m),*
+END
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;CREATE CONTINUOUS QUERY &amp;quot;cq_5m_homeassistant_sensor&amp;quot; ON &amp;quot;archive&amp;quot; BEGIN
+    SELECT mean(&amp;quot;value&amp;quot;) AS &amp;quot;value&amp;quot;, mean(&amp;quot;battery_level&amp;quot;) AS battery_level, mean(&amp;quot;temperature&amp;quot;) AS temperature
+    INTO &amp;quot;archive&amp;quot;.&amp;quot;autogen&amp;quot;.&amp;quot;sensor&amp;quot;
+    FROM &amp;quot;homeassistant&amp;quot;.&amp;quot;autogen&amp;quot;.&amp;quot;sensor&amp;quot;
+    GROUP BY time(5m),*
+END
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;CREATE CONTINUOUS QUERY &amp;quot;cq_5m_homeassistant_weather&amp;quot; ON &amp;quot;archive&amp;quot; BEGIN
+    SELECT mean(&amp;quot;humidity&amp;quot;) AS &amp;quot;humidity&amp;quot;, mean(&amp;quot;pressure&amp;quot;) AS &amp;quot;pressure&amp;quot;, last(&amp;quot;state&amp;quot;) AS &amp;quot;state&amp;quot;, mean(&amp;quot;temperature&amp;quot;) AS &amp;quot;temperature&amp;quot;, mean(&amp;quot;wind_bearing&amp;quot;) AS &amp;quot;wind_bearing&amp;quot;, mean(&amp;quot;wind_speed&amp;quot;) AS &amp;quot;wind_speed&amp;quot;
+    INTO &amp;quot;archive&amp;quot;.&amp;quot;autogen&amp;quot;.&amp;quot;weather&amp;quot;
+    FROM &amp;quot;homeassistant&amp;quot;.&amp;quot;autogen&amp;quot;.&amp;quot;weather&amp;quot;
+    GROUP BY time(5m),*
+END
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&#34;second-level&#34;&gt;Second level&lt;/h4&gt;
+&lt;p&gt;The second level keeps data for one week, sampled to 30 minutes. For simplicity I use &lt;code&gt;mean(*)&lt;/code&gt; instead of writing each entry, this has the disadvantage that data will be prefixed by &lt;code&gt;mean&lt;/code&gt;, e.g. &lt;code&gt;value&lt;/code&gt; will be called &lt;code&gt;mean_value&lt;/code&gt;.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;CREATE RETENTION POLICY &amp;quot;rp_1_week&amp;quot; ON &amp;quot;archive&amp;quot; DURATION 1w1d REPLICATION 1
+CREATE CONTINUOUS QUERY &amp;quot;cq_into_1_week_sensor&amp;quot; ON &amp;quot;archive&amp;quot; BEGIN
+    SELECT mean(*)
+    INTO &amp;quot;rp_1_week&amp;quot;.&amp;quot;sensor&amp;quot;
+    FROM &amp;quot;autogen&amp;quot;.&amp;quot;sensor&amp;quot;
+    GROUP BY time(30m),*
+END
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&#34;third-level&#34;&gt;Third level&lt;/h4&gt;
+&lt;p&gt;The third and final level is kept infinitely, where the mean value of 1 hour is used. Data here will be called &lt;code&gt;mean_mean_value&lt;/code&gt; due to the wildcard.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;CREATE RETENTION POLICY &amp;quot;rp_infinite&amp;quot; ON &amp;quot;archive&amp;quot; DURATION INF REPLICATION 1
+CREATE CONTINUOUS QUERY &amp;quot;cq_into_infinity_sensor&amp;quot; ON &amp;quot;archive&amp;quot; BEGIN
+    SELECT mean(*)
+    INTO &amp;quot;archive&amp;quot;.&amp;quot;rp_infinite&amp;quot;.&amp;quot;sensor&amp;quot;
+    FROM &amp;quot;archive&amp;quot;.&amp;quot;rp_1_week&amp;quot;.&amp;quot;sensor&amp;quot;
+    GROUP BY time(1h),*
+END
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;improvements&#34;&gt;Improvements&lt;/h3&gt;
+&lt;p&gt;I&amp;rsquo;m currently more or less running the above setup, but with all duration for retention policy on &lt;code&gt;archive&lt;/code&gt; set to &lt;code&gt;INF&lt;/code&gt;. Raw data will still be deleted after 7 days. I&amp;rsquo;ll let this run for a week or so before I decide if I need to make any modifications.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Alpine Linux and Proxmox</title>

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>HomeAssistant | Personal page</title>
-    <link>https://baberg.nu/personal/en/category/homeassistant/</link>
-      <atom:link href="https://baberg.nu/personal/en/category/homeassistant/index.xml" rel="self" type="application/rss+xml" />
-    <description>HomeAssistant</description>
+    <title>InfluxDB | Personal page</title>
+    <link>https://baberg.nu/personal/en/tag/influxdb/</link>
+      <atom:link href="https://baberg.nu/personal/en/tag/influxdb/index.xml" rel="self" type="application/rss+xml" />
+    <description>InfluxDB</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Fredrik Båberg 2020</copyright><lastBuildDate>Tue, 11 Aug 2020 20:12:00 +0200</lastBuildDate>
     <image>
       <url>https://baberg.nu/personal/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
-      <title>HomeAssistant</title>
-      <link>https://baberg.nu/personal/en/category/homeassistant/</link>
+      <title>InfluxDB</title>
+      <link>https://baberg.nu/personal/en/tag/influxdb/</link>
     </image>
     
     <item>
@@ -92,19 +92,6 @@ END
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h3 id=&#34;improvements&#34;&gt;Improvements&lt;/h3&gt;
 &lt;p&gt;I&amp;rsquo;m currently more or less running the above setup, but with all duration for retention policy on &lt;code&gt;archive&lt;/code&gt; set to &lt;code&gt;INF&lt;/code&gt;. Raw data will still be deleted after 7 days. I&amp;rsquo;ll let this run for a week or so before I decide if I need to make any modifications.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>OctoPrint in Home Assistant</title>
-      <link>https://baberg.nu/personal/en/post/octoprint-ha/</link>
-      <pubDate>Tue, 28 Apr 2020 08:15:00 +0200</pubDate>
-      <guid>https://baberg.nu/personal/en/post/octoprint-ha/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve previously published an addon for 
-&lt;a href=&#34;https://home-assistant.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Home Assistant&lt;/a&gt;, enabling the use of OctoPrint on the same device. There is now a version called &amp;ldquo;Experimental&amp;rdquo; which is my latest update. It adds features such as Ingress&lt;/p&gt;
-&lt;p&gt;Some of the challenges has been to make Ingress work, which I believe is resolved now, but also to keep the file size low. The latest published version (&lt;code&gt;0.3.0-alpha4&lt;/code&gt;) is using Python3 to save space. I intended to replace &lt;code&gt;supervisord&lt;/code&gt; with &lt;code&gt;s6&lt;/code&gt;, but have not been able to make it run properly.&lt;/p&gt;
-&lt;p&gt;The addon is available on 
-&lt;a href=&#34;https://github.com/fredrikbaberg/hassio-addons&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     

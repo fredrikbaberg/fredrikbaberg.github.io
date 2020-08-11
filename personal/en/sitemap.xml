@@ -3,18 +3,8 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://baberg.nu/personal/en/tag/alpine/</loc>
-    <lastmod>2020-06-26T12:36:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://baberg.nu/personal/en/post/alpine-proxmox/</loc>
-    <lastmod>2020-06-26T12:36:00+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://baberg.nu/personal/en/authors/</loc>
-    <lastmod>2020-06-26T12:36:00+02:00</lastmod>
+    <lastmod>2020-08-11T20:12:00+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="sv"
@@ -29,7 +19,7 @@
   
   <url>
     <loc>https://baberg.nu/personal/en/categories/</loc>
-    <lastmod>2020-06-26T12:36:00+02:00</lastmod>
+    <lastmod>2020-08-11T20:12:00+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="sv"
@@ -44,7 +34,7 @@
   
   <url>
     <loc>https://baberg.nu/personal/en/author/fredrik-baberg/</loc>
-    <lastmod>2020-06-26T12:36:00+02:00</lastmod>
+    <lastmod>2020-08-11T20:12:00+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="sv"
@@ -58,8 +48,38 @@
   </url>
   
   <url>
+    <loc>https://baberg.nu/personal/en/tag/home-assistant/</loc>
+    <lastmod>2020-08-11T20:12:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://baberg.nu/personal/en/category/homeassistant/</loc>
+    <lastmod>2020-08-11T20:12:00+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="sv"
+                href="https://baberg.nu/personal/category/homeassistant/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://baberg.nu/personal/en/category/homeassistant/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://baberg.nu/personal/en/tag/influxdb/</loc>
+    <lastmod>2020-08-11T20:12:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://baberg.nu/personal/en/post/influxdb-retention/</loc>
+    <lastmod>2020-08-11T20:12:00+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://baberg.nu/personal/en/</loc>
-    <lastmod>2020-06-26T12:36:00+02:00</lastmod>
+    <lastmod>2020-08-11T20:12:00+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="sv"
@@ -74,7 +94,7 @@
   
   <url>
     <loc>https://baberg.nu/personal/en/post/</loc>
-    <lastmod>2020-06-26T12:36:00+02:00</lastmod>
+    <lastmod>2020-08-11T20:12:00+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="sv"
@@ -88,18 +108,8 @@
   </url>
   
   <url>
-    <loc>https://baberg.nu/personal/en/tag/proxmox/</loc>
-    <lastmod>2020-06-26T12:36:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://baberg.nu/personal/en/category/proxmox/</loc>
-    <lastmod>2020-06-26T12:36:00+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://baberg.nu/personal/en/tags/</loc>
-    <lastmod>2020-06-26T12:36:00+02:00</lastmod>
+    <lastmod>2020-08-11T20:12:00+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="sv"
@@ -110,6 +120,26 @@
                 hreflang="en"
                 href="https://baberg.nu/personal/en/tags/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://baberg.nu/personal/en/tag/alpine/</loc>
+    <lastmod>2020-06-26T12:36:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://baberg.nu/personal/en/post/alpine-proxmox/</loc>
+    <lastmod>2020-06-26T12:36:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://baberg.nu/personal/en/tag/proxmox/</loc>
+    <lastmod>2020-06-26T12:36:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://baberg.nu/personal/en/category/proxmox/</loc>
+    <lastmod>2020-06-26T12:36:00+02:00</lastmod>
   </url>
   
   <url>
@@ -159,21 +189,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://baberg.nu/personal/en/tag/homeassistant/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://baberg.nu/personal/en/category/homeassistant/</loc>
-    <lastmod>2020-04-28T08:15:00+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="sv"
-                href="https://baberg.nu/personal/category/homeassistant/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://baberg.nu/personal/en/category/homeassistant/"
                 />
   </url>
   
