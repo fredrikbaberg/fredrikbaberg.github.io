@@ -241,7 +241,7 @@
     
       <meta property="article:published_time" content="2020-08-11T20:12:00&#43;02:00">
     
-    <meta property="article:modified_time" content="2020-08-11T20:12:00&#43;02:00">
+    <meta property="article:modified_time" content="2020-08-14T10:46:00&#43;02:00">
   
 
   
@@ -270,7 +270,7 @@
   "headline": "InfluxDB and retention",
   
   "datePublished": "2020-08-11T20:12:00+02:00",
-  "dateModified": "2020-08-11T20:12:00+02:00",
+  "dateModified": "2020-08-14T10:46:00+02:00",
   
   "author": {
     "@type": "Person",
@@ -465,8 +465,10 @@
     
     
       
+          Last updated on
+      
     
-    Aug 11, 2020
+    Aug 14, 2020
   </span>
   
 
@@ -554,6 +556,13 @@ END
     GROUP BY time(5m),*
 END
 </code></pre>
+<pre><code>CREATE CONTINUOUS QUERY &quot;cq_5m_homeassistant_person&quot; ON &quot;archive&quot; BEGIN
+    SELECT last(&quot;state&quot;) AS &quot;state&quot;, median(&quot;latitude&quot;) AS &quot;latitude&quot;, median(&quot;longitude&quot;) AS &quot;longitude&quot;
+    INTO &quot;archive&quot;.&quot;autogen&quot;.&quot;person&quot;
+    FROM &quot;homeassistant&quot;.&quot;autogen&quot;.&quot;person&quot;
+    GROUP BY time(5m),*
+END
+</code></pre>
 <pre><code>CREATE CONTINUOUS QUERY &quot;cq_5m_homeassistant_sensor&quot; ON &quot;archive&quot; BEGIN
     SELECT mean(&quot;value&quot;) AS &quot;value&quot;, mean(&quot;battery_level&quot;) AS battery_level, mean(&quot;temperature&quot;) AS temperature
     INTO &quot;archive&quot;.&quot;autogen&quot;.&quot;sensor&quot;
@@ -569,7 +578,8 @@ END
 END
 </code></pre>
 <h4 id="second-level">Second level</h4>
-<p>The second level keeps data for one week, sampled to 30 minutes. For simplicity I use <code>mean(*)</code> instead of writing each entry, this has the disadvantage that data will be prefixed by <code>mean</code>, e.g. <code>value</code> will be called <code>mean_value</code>.</p>
+<p>The second level keeps data for one week, sampled to 30 minutes. For simplicity I use <code>mean(*)</code> instead of writing each entry, this has the disadvantage that data will be prefixed by <code>mean</code>, e.g. <code>value</code> will be called <code>mean_value</code>.
+This is only for sensor, separate CQs need to be configured for other data.</p>
 <pre><code>CREATE RETENTION POLICY &quot;rp_1_week&quot; ON &quot;archive&quot; DURATION 1w1d REPLICATION 1
 CREATE CONTINUOUS QUERY &quot;cq_into_1_week_sensor&quot; ON &quot;archive&quot; BEGIN
     SELECT mean(*)

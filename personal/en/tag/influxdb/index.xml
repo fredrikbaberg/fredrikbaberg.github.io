@@ -56,6 +56,13 @@ END
     GROUP BY time(5m),*
 END
 &lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;CREATE CONTINUOUS QUERY &amp;quot;cq_5m_homeassistant_person&amp;quot; ON &amp;quot;archive&amp;quot; BEGIN
+    SELECT last(&amp;quot;state&amp;quot;) AS &amp;quot;state&amp;quot;, median(&amp;quot;latitude&amp;quot;) AS &amp;quot;latitude&amp;quot;, median(&amp;quot;longitude&amp;quot;) AS &amp;quot;longitude&amp;quot;
+    INTO &amp;quot;archive&amp;quot;.&amp;quot;autogen&amp;quot;.&amp;quot;person&amp;quot;
+    FROM &amp;quot;homeassistant&amp;quot;.&amp;quot;autogen&amp;quot;.&amp;quot;person&amp;quot;
+    GROUP BY time(5m),*
+END
+&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;CREATE CONTINUOUS QUERY &amp;quot;cq_5m_homeassistant_sensor&amp;quot; ON &amp;quot;archive&amp;quot; BEGIN
     SELECT mean(&amp;quot;value&amp;quot;) AS &amp;quot;value&amp;quot;, mean(&amp;quot;battery_level&amp;quot;) AS battery_level, mean(&amp;quot;temperature&amp;quot;) AS temperature
     INTO &amp;quot;archive&amp;quot;.&amp;quot;autogen&amp;quot;.&amp;quot;sensor&amp;quot;
@@ -71,7 +78,8 @@ END
 END
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h4 id=&#34;second-level&#34;&gt;Second level&lt;/h4&gt;
-&lt;p&gt;The second level keeps data for one week, sampled to 30 minutes. For simplicity I use &lt;code&gt;mean(*)&lt;/code&gt; instead of writing each entry, this has the disadvantage that data will be prefixed by &lt;code&gt;mean&lt;/code&gt;, e.g. &lt;code&gt;value&lt;/code&gt; will be called &lt;code&gt;mean_value&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;The second level keeps data for one week, sampled to 30 minutes. For simplicity I use &lt;code&gt;mean(*)&lt;/code&gt; instead of writing each entry, this has the disadvantage that data will be prefixed by &lt;code&gt;mean&lt;/code&gt;, e.g. &lt;code&gt;value&lt;/code&gt; will be called &lt;code&gt;mean_value&lt;/code&gt;.
+This is only for sensor, separate CQs need to be configured for other data.&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;CREATE RETENTION POLICY &amp;quot;rp_1_week&amp;quot; ON &amp;quot;archive&amp;quot; DURATION 1w1d REPLICATION 1
 CREATE CONTINUOUS QUERY &amp;quot;cq_into_1_week_sensor&amp;quot; ON &amp;quot;archive&amp;quot; BEGIN
     SELECT mean(*)
