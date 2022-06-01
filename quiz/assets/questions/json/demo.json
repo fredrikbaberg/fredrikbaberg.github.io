@@ -1,0 +1,53 @@
+[
+    {
+        "id": "demo_0",
+        "question": "Vilket nummer på fråga är detta?",
+        "questionText": "Vilket nummer på fråga är detta?",
+        "choices": [
+            "0",
+            "1",
+            "2",
+            "3"
+        ],
+        "correctAnswerIndex": 0,
+        "belongsTo": {
+            "Demo": [
+                "Demo"
+            ]
+        }
+    },
+    {
+        "id": "demo_1",
+        "question": "Vilket nummer på fråga är detta?",
+        "questionText": "Vilket nummer på fråga är detta?",
+        "choices": [
+            "0",
+            "1",
+            "2",
+            "3"
+        ],
+        "correctAnswerIndex": 1,
+        "belongsTo": {
+            "Demo": [
+                "Demo"
+            ]
+        }
+    },
+    {
+        "id": "demo_2",
+        "question": "Vad är SQR(16)?",
+        "questionText": "Vad är SQR(16)?",
+        "choices": [
+            "1",
+            "2",
+            "4",
+            "8"
+        ],
+        "correctAnswerIndex": 2,
+        "belongsTo": {
+            "Demo": [
+                "Demo"
+            ]
+        }
+    }
+]
